@@ -1,24 +1,31 @@
-max_height = 20
-# Make a rand array with looping
-start_time = Time.new
-looped_array = []
+require 'rainbow'
 
-10.times {looped_array << 16.times.map {rand(max_height)}}
-# 16.times.map {rand(max_height)}
-# p looped_array
-# p Time.now - start_time
-
-seeds = []
-
-start_time = Time.new
-10.times {seeds << Random.new_seed}
-
-# p seeds
-# p Time.now - start_time
+def create_random_2d_array(num_rows, num_columns, min_value, max_value)
+    r = num_rows
+    c = num_columns
+    min = min_value
+    max = max_value
+    new_array = []
+    r.times {new_array << c.times.map {rand(min..max)}}
+    return new_array
+end
 
 def pretty_print_array(arr)
     arr.each do |line|
-        print line
+        line.each do |val|
+            case val
+            when "~,~"
+                print Rainbow(val).color(:navyblue).bg(:navyblue)
+            when "~.~"
+                print Rainbow(val).blue.bg(:blue)
+            when "'.'"
+                print Rainbow(val).color(:khaki).bg(:yellow)
+            when " - "
+                print Rainbow(val).yellow.bg(:green)
+            else
+                print Rainbow(val).color(:slategray).bg(:darkslategray)
+            end
+        end
         puts ""
     end
     puts "--" * 20
@@ -36,27 +43,69 @@ end
                 # for range start_col -> end col |c|
                     # surr_values << arr[r][c]
 
-def smooth_array(arr)
-    smooth_rad = 1
+def smooth_array(arr, smooth_radius)
+    smooth_rad = smooth_radius
+    num_rows = arr.length()
+    num_cols = arr[0].length()
     new_array = []
+    # for each row
     arr.each_with_index do |row, row_index|
         new_row = []
+        # for each value in that row
         row.each_with_index do |val, col_index|
+            # track values from nearby indexes
+            surrounding_values = []
+            # set x(row) index bounds from home location
             x_range_min = col_index - smooth_rad
             x_range_max = col_index + smooth_rad
-            x_range = Array(x_range_min, x_range_max)
+            # set y(column) index bounds from home location
             y_range_min = row_index - smooth_rad
-            Y_range_max = row_index + smooth_rad
-            y_range = Array(y_range_min, y_range_max)
+            y_range_max = row_index + smooth_rad
+            # create a range(list) of row indexes from the bounds
+            x_range = Array(x_range_min..x_range_max)
+            # create a range(list) of column indexes from the bounds
+            y_range = Array(y_range_min..y_range_max)
+            # for each row index
             y_range.each do |y_range_val|
-                x_range.each do end
+                # for every column in that row within x range
+                x_range.each do |x_range_val|
+                    # prepare vars with modulo to allow wrapping of arrays
+                    row = y_range_val % num_rows
+                    col = x_range_val % num_cols
+                    surrounding_values << arr[row][col]
+                end
             end
+            height = average(surrounding_values)
+            sea_level = 16
+            case
+            when height < 9
+                char = "~,~"
+            when height < 11
+                char = "~.~"
+            when height == 11
+                char = "'.'"
+            when (height > 11 && height < 13)
+                char = " - "
+            else
+                char = " ^ "
+            end
+            new_row << char
         end
-
         new_array << new_row
     end
+    return new_array
 end
 
+def average(arr)
+    return arr.sum / arr.size
+end
 
-# p looped_array
-pretty_print_array(looped_array)
+rows = 100
+cols = 30
+min_value = 0
+max_value = 20
+looped_array = create_random_2d_array(rows, cols, min_value, max_value)
+
+# smooth_array(looped_array, 2)
+
+pretty_print_array(smooth_array(looped_array, 2))
