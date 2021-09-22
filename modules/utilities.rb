@@ -1,4 +1,3 @@
-
 module Utilities
     # --MATH FUNCTIONS-- #
     module MathFuncs

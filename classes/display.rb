@@ -8,6 +8,7 @@ class Display
         @display_width = @world_columns * @world_tile_width
     end
     def welcome_user
+        
     end
 
     def check_viewport_width()
