@@ -9,7 +9,8 @@ module Data
           " ~~",
           "~~ "
         ],
-        colour: "navyblue"
+        colour: "blue",
+        char_col: "mediumblue"
       },
       water_medium: {
         frames: [
@@ -17,7 +18,8 @@ module Data
           " ~~",
           "~~ "
         ],
-        colour: "navyblue"
+        colour: "mediumblue",
+        char_col: "blue"
       },
       water_deep: {
         frames: [
@@ -25,16 +27,54 @@ module Data
           " ~~",
           "~~ "
         ],
-        colour: "navyblue"
+        colour: "midnightblue",
+        char_col: "blue"
       },
-        land_mountain: {
-          frames: [
-            ". .",
-            ".,.",
-            "..,"
-          ],
-          colour: "green"
-        }
+      land_peak: {
+        frames: [
+          "^ ^",
+          "^^ ",
+          " ^^"
+        ],
+        colour: "webgray",
+        char_col: "darkslategray"
+      },
+      land_mountain: {
+        frames: [
+          ".^.",
+          "^,.",
+          "..^"
+        ],
+        colour: "darkslategray",
+        char_col: "gray"
+      },
+      land_highland: {
+        frames: [
+          ".  ",
+          "' .",
+          " ' "
+        ],
+        colour: "darkgreen",
+        char_col: "green"
+      },
+      land_grassland: {
+        frames: [
+          ".  ",
+          "' .",
+          " ' "
+        ],
+        colour: "green",
+        char_col: "lawngreen"
+      },
+      land_shore: {
+        frames: [
+          ".  ",
+          "' .",
+          " ' "
+        ],
+        colour: "goldenrod",
+        char_col: "lightgoldenrod"
+      }
       }
     end
   end

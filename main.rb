@@ -4,11 +4,11 @@ require_relative 'classes/world'
 
 include Utilities::ArrayFuncs
 
-rows = 25
-cols = 12
+rows = 19
+cols = 40
 min_value = 0
-max_value = 20
-sea_level = 10
+max_value = 100
+sea_level = 50
 
 # new_arr = random_2d_array(rows, cols, min_value, max_value)
 
@@ -18,4 +18,4 @@ sea_level = 10
 world = World.new(rows, cols, min_value, max_value, sea_level)
 
 world.present_height_map()
-world.draw_tiles
+world.draw_tiles()

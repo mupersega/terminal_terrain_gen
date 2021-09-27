@@ -8,7 +8,7 @@ module Utilities
 		end
 		# return the percentile of a number within a range
 		def percentile_in_range(range, value)
-			range_window = range[0] - range[1]
+			range_window = range[1] - range[0]
 			val_in_context = value - range[0]
 			percentile = val_in_context / range_window.to_f
 			return percentile

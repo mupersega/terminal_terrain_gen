@@ -22,7 +22,7 @@ class World
 		@height_map = random_2d_array(@rows, @cols, @min_altitude, @max_altitude)
 		present_height_map()
 		# smooth the initial array arg=smooth radius
-		@height_map = smooth_height_map(1)
+		@height_map = smooth_height_map(4)
 		present_height_map()
 		build_tiles(@height_map)
 	end
@@ -57,7 +57,16 @@ class World
 	end
 
 	def draw_tiles
-		@tiles.each { |tile| tile.draw()}
+		@tiles.each_with_index do |tile, i|
+			if i % @cols == 0
+				puts ""
+				print"	"
+			end
+			tile.draw()
+			# sleep(0.005)
+		end
+		puts ""
+		puts ""
 	end
 
 end
