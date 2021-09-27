@@ -1,3 +1,4 @@
+# These Utilities must have no reference to other projects.
 module Utilities
     # --MATH FUNCTIONS-- #
     module MathFuncs
@@ -19,7 +20,7 @@ module Utilities
             r.times {new_array << c.times.map {rand(min..max)}}
             return new_array
         end
-        # smooth an array with average pooling. This is also known as convolution. Smooth radius is how many cells around the main cell should be used to contribute to the pool.
+        # smooth an array with average pooling. This is also known as convolution. smooth_radius is how many cells around the main cell should be used to contribute to the pool.
         def smooth_2d_array(arr, smooth_radius)
             # prepare new array
             new_array = []
@@ -71,6 +72,28 @@ module Utilities
                 end
                 puts ""
             end
+        end
+
+    end
+
+    # --STRING FUNCTIONS-- #
+    module StringFuncs
+
+        def pad_string(string, desired_string_length, filler="0")
+					# assigning vars only for cleaner code
+					s = string.to_s
+					dsl = desired_string_length
+					f = filler
+					# if string is larger than desired slice it
+					if s.length > dsl
+						return s.slice(0..s.length)
+					# if smaller than desired add filler chars
+					elsif s.length < dsl
+						return s.rjust(dsl, f)
+					# otherwise it is exact size and return as is
+					else
+						return s
+					end
         end
 
     end
