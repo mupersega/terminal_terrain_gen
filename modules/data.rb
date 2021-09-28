@@ -78,6 +78,15 @@ module Data
       }
     end
   end
+  module Text
+    def  self.all_text
+      return {
+        bundle_install_text: "The application will end now. Please run 'bundle install' in the root directory of this application to install all necessary dependancies. You may also need to run 'gem install bundler' if you don't currently have bundler installed. I know it's a lot to ask, but bear with me.",
+        welcome_message: "Welcome, before we begin, if you haven't run 'bundle install' from this application's root directory, you will need to do that before we move on.\nHave you done that?"
+      }
+    end
+  end
+
 end
 
 # shore pale goldenrod

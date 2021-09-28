@@ -6,26 +6,33 @@ class World
 
   attr_reader :sea_level, :height_map
 
-  def initialize(sea_level = 50, height_map = [])
-    @rows = 20
-    @cols = 40
+  def initialize(sea_level, height_map = [])
+    @rows = 25
+    @cols = 30
     @min_altitude = 0
     @max_altitude = 100
     @sea_level = sea_level
     @height_map = height_map
     @tiles = []
-    @height_map.length.positive? ? build_tiles(@height_map) : setup
+    # if height map passed, load it, else create a new height map
+    @height_map.length.positive? ? load_map : setup
+    build_tiles(@height_map)
   end
 
+  # build a brand new height map
   def setup
     # build array of arrays of random values between min & max altitudes
     @height_map = random_2d_array(@rows, @cols, @min_altitude, @max_altitude)
-    # smooth the initial array arg=smooth radius
-    3.times {
-      @height_map = smooth_height_map(2)
+    # smooth the initial array x times
+    5.times {
+      @height_map = smooth_height_map(1)
     }
-    # instantiate tiles
-    build_tiles(@height_map)
+  end
+
+  # set appropriate attributes if height map supplied
+  def load_map
+    @rows = @height_map.length
+    @cols = @height_map[0].length
   end
 
   def smooth_height_map(smooth_radius)

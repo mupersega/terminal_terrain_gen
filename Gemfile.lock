@@ -1,13 +1,27 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    equatable (0.5.0)
+    necromancer (0.4.0)
+    pastel (0.7.2)
+      equatable (~> 0.5.0)
+      tty-color (~> 0.4.0)
     rainbow (3.0.0)
+    tty-color (0.4.3)
+    tty-cursor (0.4.0)
+    tty-prompt (0.12.0)
+      necromancer (~> 0.4.0)
+      pastel (~> 0.7.0)
+      tty-cursor (~> 0.4.0)
+      wisper (~> 1.6.1)
+    wisper (1.6.1)
 
 PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
   rainbow (~> 3.0)
+  tty-prompt
 
 BUNDLED WITH
    2.2.22
