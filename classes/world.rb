@@ -15,12 +15,13 @@ class World
     @height_map = height_map
     @tiles = []
     # if height map passed, load it, else create a new height map
-    @height_map.length.positive? ? load_map : setup
+    @height_map.length.positive? ? set_load_attribs : setup_height_map
     build_tiles(@height_map)
+    draw_tiles()
   end
 
   # build a brand new height map
-  def setup
+  def setup_height_map
     # build array of arrays of random values between min & max altitudes
     @height_map = random_2d_array(@rows, @cols, @min_altitude, @max_altitude)
     # smooth the initial array x times
@@ -30,7 +31,7 @@ class World
   end
 
   # set appropriate attributes if height map supplied
-  def load_map
+  def set_load_attribs
     @rows = @height_map.length
     @cols = @height_map[0].length
   end
