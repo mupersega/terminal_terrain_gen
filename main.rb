@@ -17,5 +17,5 @@ sea_level = 50
 
 world = World.new(rows, cols, min_value, max_value, sea_level)
 
-world.present_height_map()
+# world.present_height_map()
 world.draw_tiles()

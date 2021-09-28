@@ -20,10 +20,10 @@ class World
 	def setup
 		# build array of arrays of random values between min & max altitudes
 		@height_map = random_2d_array(@rows, @cols, @min_altitude, @max_altitude)
-		present_height_map()
+		# present_height_map()
 		# smooth the initial array arg=smooth radius
 		@height_map = smooth_height_map(4)
-		present_height_map()
+		# present_height_map()
 		build_tiles(@height_map)
 	end
 
@@ -67,6 +67,10 @@ class World
 		end
 		puts ""
 		puts ""
+	end
+
+	def main_loop
+		
 	end
 
 end

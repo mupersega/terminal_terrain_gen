@@ -20,7 +20,6 @@ class Tile
 		@colour_char = @tile_data[:char_col]
 		@frames = @tile_data[:frames]
 		@current_frame = rand(@frames.length)
-		p @current_frame
 	end
 
 	def to_s
@@ -34,11 +33,11 @@ class Tile
 		max_world_height = @world.height_map.flatten.max
 		min_world_height = @world.height_map.flatten.min
 		range = underwater ? [min_world_height, sea_level] : [sea_level, max_world_height]
-		p range
-		p min_world_height
-		p max_world_height
+		# p range
+		# p min_world_height
+		# p max_world_height
 		percentile = percentile_in_range(range, @altitude)
-		p percentile
+		# p percentile
 		if underwater
 			case
 			when percentile > 0.8

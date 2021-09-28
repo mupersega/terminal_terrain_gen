@@ -5,45 +5,45 @@ module Data
     return {
       water_shallow: {
         frames: [
-          "~ ~",
-          " ~~",
-          "~~ "
+          "~  ",
+          " ~ ",
+          "~ ~"
         ],
         colour: "blue",
         char_col: "mediumblue"
       },
       water_medium: {
         frames: [
-          "~ ~",
-          " ~~",
-          "~~ "
+          " _-",
+          "- _",
+          "_ -"
         ],
         colour: "mediumblue",
         char_col: "blue"
       },
       water_deep: {
         frames: [
-          "~ ~",
-          " ~~",
-          "~~ "
+          " _-",
+          "- _",
+          "_ -"
         ],
         colour: "midnightblue",
         char_col: "blue"
       },
       land_peak: {
         frames: [
-          "^ ^",
-          "^^ ",
-          " ^^"
+          "/\\^",
+          "^/\\",
+          "/^\\"
         ],
         colour: "webgray",
         char_col: "darkslategray"
       },
       land_mountain: {
         frames: [
-          ".^.",
-          "^,.",
-          "..^"
+          "  ^",
+          "^  ",
+          "^ ^"
         ],
         colour: "darkslategray",
         char_col: "gray"
