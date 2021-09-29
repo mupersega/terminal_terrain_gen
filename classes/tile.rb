@@ -8,12 +8,12 @@ class Tile
   include Utilities::MathFuncs
   include Data::TileData
 
-  def initialize(world, x, y, altitude)
+  def initialize(world, x, y, altitude, kind=nil)
     @world = world
     @x = x
     @y = y
     @altitude = altitude
-    @kind = establish_kind
+    @kind = kind == nil ? establish_kind : kind
 
     @tile_data = Data::TileData.tile_info[@kind]
     @colour_bg = @tile_data[:colour]

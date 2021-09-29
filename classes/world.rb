@@ -9,7 +9,7 @@ class World
 
   def initialize(sea_level, height_map = [])
     @prompt = TTY::Prompt.new
-    @rows = 100
+    @rows = 22
     @cols = 30
     @min_altitude = 0
     @max_altitude = 100
@@ -84,7 +84,7 @@ class World
   end
 
   def map_menu
-    menu_items = ["add mountains", "add depths", "smooth the map", "save this map", "quit"]
+    menu_items = ["smooth the map", "add heights", "add depths", "save this map", "quit"]
     input = @prompt.select("You would like to..") do |menu|
       menu.choice menu_items[0]
       menu.choice menu_items[1]
@@ -94,13 +94,13 @@ class World
     end
     case input
     when menu_items[0]
-      add_mountains
-    when menu_items[1]
-      subtract_heights
-    when menu_items[2]
       user_smooth
+    when menu_items[1]
+      add_mountains
+    when menu_items[2]
+      subtract_heights
     when menu_items[3]
-      puts "help info"
+      save_world
     else
       thank_user
       exit!
@@ -108,14 +108,14 @@ class World
   end
 
   def add_mountains
-    num_nodes = @prompt.slider("How many mountains?", min: 0, max: 10, step: 1)
+    num_nodes = @prompt.slider("How many times?", min: 0, max: 10, step: 1)
     size = @prompt.slider("How big would you like them to be?", min: 1, max: 3, step: 1, help: "(1=sml, 2=med, 3=lrg)", show_help: :always)
     num_nodes.times {Terraformer.new(self, rand(@cols), rand(@rows), size, 1)}
 
   end
 
   def subtract_heights
-    num_nodes = @prompt.slider("How many times?", min: 1, max: 5, step: 1)
+    num_nodes = @prompt.slider("How many times?", min: 0, max: 10, step: 1)
     size = @prompt.slider("How greedily, and how deep will you dig?", min: 1, max: 3, step: 1, help: "(1=shallow, 2=deep, 3=moria)", show_help: :always)
     num_nodes.times {Terraformer.new(self, rand(@cols), rand(@rows), size, -1)}
 
@@ -123,9 +123,18 @@ class World
 
   def user_smooth
     choices = {"a little" => 1, "a lot" => 2}
-    smooth_radius = @prompt.select("What size?", choices)
+    smooth_radius = @prompt.select("Smooth how much?", choices)
     smooth_radius.times {smooth_height_map(smooth_radius)}
   end
+
+  def save_world
+    # get world name off user.
+    name = @prompt.ask("What would you like to name this map?") do |q|
+      q.validate(/\A[^.]+\.[^.]+\Z/)
+    puts name
+    end
+  end
+
 
   def main_loop
     done = false
