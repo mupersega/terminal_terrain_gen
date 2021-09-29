@@ -68,11 +68,11 @@ module Data
       },
       land_shore: {
         frames: [
-          ".  ",
-          "' .",
-          " ' "
+          "░ ░",
+          "░░ ",
+          " ░░"
         ],
-        colour: "goldenrod",
+        colour: "green",
         char_col: "lightgoldenrod"
       }
       }

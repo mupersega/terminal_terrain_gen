@@ -1,10 +1,13 @@
 require 'tty-prompt'
 require_relative '../modules/data'
+require_relative '../modules/utilities'
 require_relative 'world'
 
 class Launcher
   # Launcher class will prepare the user to create and load worlds and is where the user will return to after finishing world creation.
   include Data::Text
+  include Utilities::FileFuncs
+
   def initialize
     @prompt = TTY::Prompt.new
     @text = Data::Text.all_text
@@ -18,7 +21,6 @@ class Launcher
     else
       p "ok"
     end
-    # @prompt.slider("Sea Level", min: 45, max: 55, step: 1)
   end
 
   def thank_user
@@ -26,29 +28,35 @@ class Launcher
   end
 
   def main_menu
-    input = @prompt.select("Would you like to..") do |menu|
-      menu.choice "create new world"
-      menu.choice "load saved world"
-      menu.choice "help"
+    menu_items = ["create new map", "load a saved map", "help", "quit"]
+    input = @prompt.select("You would like to..") do |menu|
+      menu.choice menu_items[0]
+      menu.choice menu_items[1]
+      menu.choice menu_items[2]
+      menu.choice menu_items[3]
     end
     case input
-    when "create new world"
+    when menu_items[0]
       new_world
-    when "load"
-      load_world
-    else
+    when menu_items[1]
+      subtract_heights
+    when menu_items[2]
       puts "help info"
+    else
+      thank_user
+      exit!
     end
   end
 
   def new_world
     # choose sea level
-    sl = @prompt.slider("Sea Level", min: 45, max: 55, step: 1)
-    @current_world = World.new(sl)
+    sl = @prompt.slider("Sea Level", min: -5, max: 5, step: 1, help: "(low = more land, high = more water)", show_help: :always)
+    @current_world = World.new(50 + sl)
   end
 
   def load_world
     # create list all json filenames in maps folder
+    # json_files = []Dir["../maps/to/search/*"]
     # prompt select from list
     # parse data of chosen json
     # TEST VALIDITY OF HEIGHT MAP
@@ -60,7 +68,6 @@ class Launcher
     done = false
     until done
       main_menu
-      done = @prompt.yes?("you done?")
     end
     thank_user
   end

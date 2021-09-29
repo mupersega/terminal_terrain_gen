@@ -19,6 +19,7 @@ class Tile
     @colour_bg = @tile_data[:colour]
     @colour_char = @tile_data[:char_col]
     @frames = @tile_data[:frames]
+    # choose a random string char out of all options to avoid repetitive tile displays
     @current_frame = rand(@frames.length)
   end
 
@@ -51,7 +52,7 @@ class Tile
       :land_peak
     elsif percentile > 0.7
       :land_mountain
-    elsif percentile > 0.55
+    elsif percentile > 0.45
       :land_highland
     elsif percentile.positive?
       :land_grassland
@@ -66,5 +67,5 @@ class Tile
 
   def to_s
     "<#{pad_string(@x, 2)},#{pad_string(@y, 2)},#{pad_string(@altitude, 2)}> "
-  end
+    end
 end

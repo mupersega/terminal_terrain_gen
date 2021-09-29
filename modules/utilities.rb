@@ -96,6 +96,20 @@ module Utilities
       new_array
     end
 
+    # return array of average of values at every index of a num of arrays
+    def average_arrays(nested_array)
+      joined_arr = []
+      num_cols = nested_array[0].length
+      num_arrays = nested_array.length
+      num_cols.times do |i|
+        current_sum = 0
+        working_array = nested_array[i]
+        nested_array.each { |array| current_sum += array[i]}
+        joined_arr << current_sum / num_arrays.to_f
+      end
+      return joined_arr
+    end
+
     # display values in array with no padding or delimiter one row at a time
     def display_array_clean(arr)
       arr.each do |line|
@@ -115,5 +129,22 @@ module Utilities
         puts ''
       end
     end
+  end
+  
+  # --File Functions-- #
+  module FileFuncs
+    # return a list of file names of a type without the file extension
+    def get_all_file_names_of_type(path, extension)
+      # get all files in path
+      full_file_names = Dir.entries(path).select { |f| File.file? File.join(path, f) }
+      files = []
+      full_file_names.each do |name|
+        # split file into name and extension
+        file_breakdown = name.split(".")
+        file_breakdown[1] == extension ? full_file_names << file_breakdown[0] : next
+      end
+      return files
+    end
+
   end
 end
