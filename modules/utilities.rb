@@ -17,6 +17,9 @@ module Utilities
 
   # --STRING FUNCTIONS-- #
   module StringFuncs
+    def keep_alphabet
+    end
+
     def pad_string(string, desired_string_length, filler = '0')
       # assigning vars only for cleaner code
       s = string.to_s

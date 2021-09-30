@@ -1,3 +1,5 @@
+require 'rainbow'
+
 require_relative '../modules/utilities'
 require_relative 'tile'
 require_relative 'terraformer'
@@ -19,6 +21,7 @@ class World
     # if height map passed, load it and set attribs, else create a new height map
     @height_map.length.positive? ? set_load_attribs : setup_height_map
     build_tiles(@height_map)
+    display_array_padded(@height_map, 2)
     draw_tiles()
     main_loop()
   end
@@ -118,7 +121,6 @@ class World
     num_nodes = @prompt.slider("How many times?", min: 0, max: 10, step: 1)
     size = @prompt.slider("How greedily, and how deep will you dig?", min: 1, max: 3, step: 1, help: "(1=shallow, 2=deep, 3=moria)", show_help: :always)
     num_nodes.times {Terraformer.new(self, rand(@cols), rand(@rows), size, -1)}
-
   end
 
   def user_smooth
@@ -129,12 +131,12 @@ class World
 
   def save_world
     # get world name off user.
-    name = @prompt.ask("What would you like to name this map?") do |q|
-      q.validate(/\A[^.]+\.[^.]+\Z/)
+    print "dollar amount: "
+    name = @prompt.ask("What would you like to name this map?", help: "Alphabet only, max size 10 characters.") do |q|
+      q.validate(/^[a-zA-Z]{0,10}$/, "File name must contain #{Rainbow("LETTERS").red} only, and be no more than #{Rainbow("10").red} characters long")
     puts name
     end
   end
-
 
   def main_loop
     done = false
