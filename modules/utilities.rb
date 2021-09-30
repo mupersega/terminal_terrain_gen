@@ -137,14 +137,16 @@ module Utilities
   # --File Functions-- #
   module FileFuncs
     # return a list of file names of a type without the file extension
-    def get_all_file_names_of_type(path, extension)
+    def get_all_file_names_of_type(extension, path)
+      # p Dir.entries(path)
       # get all files in path
       full_file_names = Dir.entries(path).select { |f| File.file? File.join(path, f) }
+      p full_file_names
       files = []
       full_file_names.each do |name|
         # split file into name and extension
         file_breakdown = name.split(".")
-        file_breakdown[1] == extension ? full_file_names << file_breakdown[0] : next
+        file_breakdown[1] == extension ? files << file_breakdown[0] : next
       end
       return files
     end

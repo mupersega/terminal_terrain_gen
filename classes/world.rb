@@ -1,4 +1,5 @@
 require 'rainbow'
+require 'json'
 
 require_relative '../modules/utilities'
 require_relative 'tile'
@@ -6,24 +7,39 @@ require_relative 'terraformer'
 
 class World
   include Utilities::ArrayFuncs
+  include Utilities::FileFuncs
 
   attr_reader :sea_level, :height_map, :cols, :rows
 
-  def initialize(sea_level, height_map = [])
+  def initialize(sea_level, world_data = nil)
     @prompt = TTY::Prompt.new
     @rows = 22
     @cols = 30
     @min_altitude = 0
     @max_altitude = 100
     @sea_level = sea_level
+    @world_data = world_data
     @height_map = height_map
     @tiles = []
-    # if height map passed, load it and set attribs, else create a new height map
-    @height_map.length.positive? ? set_load_attribs : setup_height_map
-    build_tiles(@height_map)
-    display_array_padded(@height_map, 2)
+
+    @world_data == nil ? build_fresh : build_from_data
     draw_tiles()
     main_loop()
+  end
+
+  # build a world from fresh if no data loaded
+  def build_fresh
+    @height_map = setup_height_map
+    instantiate_tiles_from_array(@height_map)
+  end
+
+  # build a world from json
+  def build_from_data
+    @sea_level = @world_data["sea_level"]
+    @height_map = @world_data["height_map"]
+    @rows = @height_map.length
+    @cols = @height_map[0].length
+    instantiate_tiles_from_json(@world_data["tiles"])
   end
 
   # build a brand new height map
@@ -36,18 +52,12 @@ class World
     }
   end
 
-  # set appropriate attributes if height map supplied
-  def set_load_attribs
-    @rows = @height_map.length
-    @cols = @height_map[0].length
-  end
-
   def smooth_height_map(smooth_radius)
     # run utils func on this' height map
     @height_map = smooth_2d_array(@height_map, smooth_radius)
   end
 
-  def build_tiles(an_array)
+  def instantiate_tiles_from_array(an_array)
     # empty current tiles
     @tiles.clear
     # for every value(altitude) in every row, make a new tile at coords (x=row_index, y=col_index) at altitude.
@@ -56,6 +66,11 @@ class World
         @tiles.push Tile.new(self, row_index, col_index, altitude)
       end
     end
+  end
+
+  def instantiate_tiles_from_json(tile_data)
+    tile_data.each {|tile|
+      @tiles.push(Tile.new(self, tile["x"], tile["y"], tile["altitude"], tile["kind"] ))}
   end
 
   # debug tool
@@ -129,20 +144,50 @@ class World
     smooth_radius.times {smooth_height_map(smooth_radius)}
   end
 
+  # get world name from user.
   def save_world
-    # get world name off user.
-    print "dollar amount: "
+    # set loop flag
+    valid_name = false
+    # final name
+    chosen_name = nil
+    # return all maps in maps folder
+    all_maps = get_all_file_names_of_type("json", "./maps/")
+    # loop until valid name 
+    until valid_name
+      map_name = get_validated_map_name
+      # if name exists would user like to overwrite map
+      if all_maps.include? map_name
+        valid_name = @prompt.yes?("This map already exists, would you like to overwrite it?")
+      else
+        valid_name = true
+      end
+    end
+    puts "saving world"
+    export_world(chosen_name)
+  end
+
+  def get_validated_map_name
     name = @prompt.ask("What would you like to name this map?", help: "Alphabet only, max size 10 characters.") do |q|
       q.validate(/^[a-zA-Z]{0,10}$/, "File name must contain #{Rainbow("LETTERS").red} only, and be no more than #{Rainbow("10").red} characters long")
-    puts name
     end
+    return name
+  end
+
+  def export_world(name, path="./maps/test.json")
+    new_json = {
+      name: name,
+      sea_level: @sea_level,
+      height_map: @height_map,
+      tiles: @tiles.map {|tile| tile.as_json() }
+    }
+    File.open(path, 'w') { |file| file.write(JSON.pretty_generate(new_json))}
   end
 
   def main_loop
     done = false
     until done
       map_menu
-      build_tiles(@height_map)
+      instantiate_tiles_from_array(@height_map)
       draw_tiles
     end
   end

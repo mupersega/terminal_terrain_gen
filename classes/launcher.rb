@@ -39,7 +39,8 @@ class Launcher
     when menu_items[0]
       new_world
     when menu_items[1]
-      subtract_heights
+      # subtract_heights
+      load_world
     when menu_items[2]
       puts "help info"
     else
@@ -56,11 +57,16 @@ class Launcher
 
   def load_world
     # create list all json filenames in maps folder
-    # json_files = []Dir["../maps/to/search/*"]
+    files = get_all_file_names_of_type("json", "./maps")
     # prompt select from list
+    
     # parse data of chosen json
     # TEST VALIDITY OF HEIGHT MAP
     # @current_world = World.new(data.sl, data.heightmap)
+    # def initialize(sea_level, height_map = [], tile_data = [])
+    json = JSON.load_file("./maps/test.json")
+    @current_world = World.new(json["sea_level"], json["height_map"], json["tiles"])
+
   end
 
   def main_loop

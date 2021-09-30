@@ -13,7 +13,7 @@ class Tile
     @x = x
     @y = y
     @altitude = altitude
-    @kind = kind == nil ? establish_kind : kind
+    @kind = kind == nil ? establish_kind : kind.to_sym
 
     @tile_data = Data::TileData.tile_info[@kind]
     @colour_bg = @tile_data[:colour]
@@ -21,6 +21,15 @@ class Tile
     @frames = @tile_data[:frames]
     # choose a random string char out of all options to avoid repetitive tile displays
     @current_frame = rand(@frames.length)
+  end
+
+  def as_json
+    return {
+      x: @x,
+      y: @y,
+      altitude: @altitude,
+      kind: @kind
+    }
   end
 
   def establish_kind
