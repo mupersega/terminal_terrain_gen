@@ -85,6 +85,33 @@ module Data
         welcome_message: "Welcome, before we begin, if you haven't run 'bundle install' from this application's root directory, you will need to do that before we move on.\nHave you done that?"
       }
     end
+
+    def self.title_ascii
+      return "
+          +-+-+ +-+-+-+-+-+-+-+ +-+-+-+
+          |2|d| |T|e|r|r|a|i|n| |G|e|n|
+          +-+-+ +-+-+-+-+-+-+-+ +-+-+-+
+      "
+    end
+    def self.main_menu_ascii
+      return "
+                  -main menu-
+      "
+    end
+    def self.home_text
+      return "
+    Welcome to the 2D terrain generation tool
+
+  This terminal application randomly generates
+    a map full of tiles, each one a different
+              kind of terrain.
+
+  These maps are able to be saved and loaded
+  locally so that as long as you know how to
+  import JSON, you might use the tile maps in
+      your own application. Enjoy.
+"
+    end
   end
 
 end

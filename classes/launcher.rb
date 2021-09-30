@@ -15,12 +15,20 @@ class Launcher
   end
 
   def welcome_user
-    first_time = @prompt.no?(@text[:welcome_message])
+    first_time = @prompt.yes?(@text[:welcome_message])
     if first_time
-      puts @text[:bundle_install_text]
+      puts ''
+      system 'clear'
     else
-      p "ok"
+      puts @text[:bundle_install_text]
+      exit!
     end
+    title_screen
+  end
+
+  def title_screen
+    pretty_pretty_print(Data::Text.title_ascii)
+    pretty_pretty_print(Data::Text.home_text)
   end
 
   def thank_user
@@ -28,25 +36,29 @@ class Launcher
   end
 
   def main_menu
-    menu_items = ["create new map", "load a saved map", "help", "quit"]
-    input = @prompt.select("You would like to..") do |menu|
+    pretty_pretty_print(Data::Text.main_menu_ascii)
+    puts ""
+    menu_items = ["New world", "Load world", "Exit"]
+    input = @prompt.select("Here are your options:") do |menu|
       menu.choice menu_items[0]
       menu.choice menu_items[1]
       menu.choice menu_items[2]
-      menu.choice menu_items[3]
     end
     case input
     when menu_items[0]
       new_world
     when menu_items[1]
-      # subtract_heights
       load_world
-    when menu_items[2]
-      puts "help info"
     else
-      thank_user
-      exit!
+      return true
     end
+    return false
+  end
+
+  # print real purdy-like
+  def pretty_pretty_print(string)
+    colours = [:lawngreen, :green, :darkgreen, :seagreen, :darkseagreen, :limegreen, :chartreuse]
+    string.each_char { |char| print Rainbow(char).color(colours.sample)}
   end
 
   def new_world
@@ -56,25 +68,29 @@ class Launcher
   end
 
   def load_world
-    # create list all json filenames in maps folder
-    files = get_all_file_names_of_type("json", "./maps")
-    # prompt select from list
-    
-    # parse data of chosen json
-    # TEST VALIDITY OF HEIGHT MAP
-    # @current_world = World.new(data.sl, data.heightmap)
-    # def initialize(sea_level, height_map = [], tile_data = [])
-    json = JSON.load_file("./maps/test.json")
-    @current_world = World.new(json["sea_level"], json["height_map"], json["tiles"])
-
+    # create choice list of all json filenames in maps folder
+    begin
+      choices = get_all_file_names_of_type("json", "./maps")
+      # prompt select from list
+      choice = @prompt.select("Choose a map", choices, cycle: true, max: 3)
+      # load json file matching name
+      json = JSON.load_file("./maps/#{choice}.json")
+      # instantiate world with sea level and other data
+      @current_world = World.new(json["sea_level"], json)
+    rescue NoMethodError
+      puts "There are currently no maps to load, create a new one and save to utilize this feature."
+    end
   end
 
   def main_loop
     welcome_user
     done = false
     until done
-      main_menu
+      done = main_menu
+      system 'clear'
     end
-    thank_user
+    puts 'Thank you, exiting now.'
+    sleep(0.2)
+    exit!
   end
 end

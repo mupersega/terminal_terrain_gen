@@ -1,1197 +1,1197 @@
 {
-  "name": null,
-  "sea_level": 50,
+  "name": "newmap",
+  "sea_level": 53,
   "height_map": [
     [
-      37,
-      34,
-      52,
-      63,
-      43,
-      41,
-      39,
-      59,
-      57,
+      45,
+      45,
+      47,
+      49,
       53,
-      48,
-      48,
-      48,
-      52,
-      55,
       54,
-      50,
-      31,
-      37,
-      58,
-      57,
-      56,
-      58,
-      21,
-      53,
+      54,
       52,
-      25,
-      48,
-      56,
-      32
-    ],
-    [
-      35,
-      29,
-      33,
-      63,
-      40,
-      38,
-      37,
-      57,
-      58,
-      55,
       50,
       49,
+      53,
+      51,
+      51,
+      49,
+      49,
+      45,
+      45,
+      45,
+      47,
+      48,
+      51,
+      54,
+      56,
+      62,
+      62,
+      59,
+      58,
+      56,
+      51,
+      47
+    ],
+    [
+      46,
+      46,
+      46,
+      51,
+      54,
+      52,
       51,
       55,
-      58,
-      30,
-      31,
-      25,
-      39,
-      36,
-      35,
-      34,
-      55,
-      54,
+      48,
+      43,
+      49,
+      48,
+      43,
       46,
+      48,
+      44,
+      43,
       44,
       47,
-      36,
-      40,
-      34
-    ],
-    [
-      37,
-      31,
-      32,
-      60,
-      35,
-      39,
+      48,
       52,
-      55,
-      55,
-      54,
-      49,
-      49,
       53,
       59,
       62,
+      62,
+      59,
       60,
       55,
-      41,
-      40,
-      52,
-      46,
-      54,
-      46,
-      57,
-      21,
-      25,
-      43,
-      46,
-      37,
-      36
+      49,
+      47
     ],
     [
-      30,
-      51,
-      25,
-      27,
-      33,
-      34,
-      49,
-      52,
-      53,
-      54,
+      44,
+      45,
+      46,
+      46,
+      48,
       49,
       48,
-      55,
-      61,
-      66,
+      52,
+      48,
       44,
-      61,
+      50,
+      49,
+      41,
       42,
-      56,
-      51,
-      45,
-      52,
-      58,
-      56,
-      41,
-      38,
-      37,
-      45,
-      46,
-      28
-    ],
-    [
-      41,
-      48,
-      47,
-      49,
-      51,
-      53,
-      52,
-      54,
-      55,
-      54,
-      54,
-      55,
-      47,
-      64,
-      45,
-      63,
-      43,
-      60,
-      43,
-      46,
-      49,
-      53,
-      55,
-      40,
-      38,
-      33,
-      44,
-      43,
-      24,
-      29
-    ],
-    [
-      30,
-      36,
-      48,
-      50,
-      52,
-      54,
-      54,
-      56,
-      57,
-      58,
-      57,
-      59,
-      62,
-      46,
-      62,
-      61,
-      58,
-      48,
-      47,
-      44,
-      45,
-      54,
-      46,
-      41,
-      34,
-      32,
-      35,
-      26,
-      23,
-      23
-    ],
-    [
-      31,
-      43,
-      39,
-      41,
-      55,
-      43,
-      54,
-      55,
-      56,
-      56,
-      58,
-      61,
-      65,
-      65,
-      59,
-      56,
-      38,
-      37,
-      49,
-      52,
-      49,
-      47,
-      48,
-      50,
-      35,
-      34,
-      33,
-      34,
-      28,
-      26
-    ],
-    [
-      28,
-      32,
-      40,
-      38,
-      49,
-      49,
-      50,
-      51,
-      52,
-      52,
-      52,
-      58,
-      60,
-      61,
-      56,
-      55,
-      55,
-      54,
-      51,
-      33,
-      51,
-      46,
-      47,
-      48,
-      49,
-      28,
-      32,
-      32,
-      27,
-      25
-    ],
-    [
-      46,
-      48,
-      33,
-      50,
-      49,
-      48,
-      49,
-      48,
-      48,
-      46,
-      48,
-      53,
-      58,
-      57,
-      44,
-      54,
-      55,
-      55,
-      50,
-      32,
-      47,
-      46,
-      46,
-      43,
-      33,
-      27,
-      21,
-      30,
-      31,
-      23
-    ],
-    [
-      32,
-      50,
-      35,
-      51,
-      50,
-      48,
-      48,
-      47,
-      47,
-      46,
-      46,
-      49,
-      52,
-      56,
-      56,
-      45,
-      56,
-      36,
-      49,
-      31,
-      49,
-      47,
-      44,
-      44,
-      34,
-      39,
-      29,
-      23,
-      21,
-      46
-    ],
-    [
-      31,
-      33,
-      36,
-      46,
-      51,
-      49,
-      49,
-      48,
-      48,
-      48,
-      47,
-      48,
-      50,
-      54,
-      58,
-      46,
-      35,
-      37,
-      30,
-      54,
-      47,
-      46,
-      45,
-      37,
       42,
-      30,
-      40,
-      27,
+      41,
+      39,
+      46,
+      52,
+      52,
+      52,
+      54,
+      58,
+      61,
+      61,
+      59,
+      60,
+      53,
       47,
       48
     ],
     [
-      30,
-      52,
+      41,
       43,
-      38,
+      45,
+      48,
+      49,
+      49,
+      45,
       51,
-      33,
+      43,
+      41,
+      47,
+      51,
+      42,
+      45,
+      46,
+      43,
+      40,
+      49,
+      55,
+      49,
+      51,
+      50,
+      52,
+      53,
+      55,
+      55,
+      57,
+      46,
+      43,
+      44
+    ],
+    [
+      43,
+      43,
+      46,
+      47,
+      49,
+      50,
+      48,
+      54,
       50,
       50,
+      54,
+      58,
+      50,
+      52,
+      50,
+      48,
+      43,
+      51,
+      54,
+      51,
+      50,
+      48,
+      50,
+      52,
+      54,
+      54,
+      59,
+      46,
+      43,
+      45
+    ],
+    [
+      43,
+      42,
+      45,
+      46,
+      43,
+      47,
+      45,
+      53,
+      48,
+      49,
+      50,
+      53,
+      48,
+      52,
+      51,
+      47,
+      46,
+      51,
+      52,
+      52,
+      54,
+      51,
+      53,
+      55,
+      55,
+      54,
+      58,
+      46,
+      42,
+      46
+    ],
+    [
+      44,
+      40,
+      45,
+      49,
+      43,
+      47,
+      48,
+      53,
+      49,
+      55,
+      56,
+      57,
+      51,
+      51,
+      48,
+      45,
+      48,
+      54,
+      56,
+      54,
+      56,
+      52,
       50,
       49,
+      52,
       49,
+      55,
+      46,
+      45,
+      47
+    ],
+    [
+      40,
+      35,
+      40,
+      45,
+      40,
+      45,
+      46,
+      53,
+      48,
+      54,
+      54,
+      53,
+      46,
+      50,
       48,
       47,
       51,
       56,
-      58,
-      40,
-      38,
-      29,
+      56,
+      55,
+      56,
+      53,
+      49,
+      46,
+      51,
+      49,
+      53,
+      47,
+      47,
+      43
+    ],
+    [
+      48,
+      45,
+      50,
+      53,
+      46,
+      49,
+      52,
+      56,
+      53,
+      59,
+      59,
       54,
+      49,
+      50,
+      48,
+      45,
+      50,
+      52,
+      49,
+      51,
+      54,
+      52,
+      49,
+      51,
+      56,
+      51,
+      53,
+      49,
+      49,
+      47
+    ],
+    [
+      48,
+      49,
+      52,
+      57,
+      51,
+      49,
+      48,
+      55,
+      52,
+      55,
+      56,
+      51,
+      45,
+      45,
+      44,
+      40,
+      47,
+      47,
+      43,
+      44,
+      52,
+      48,
+      45,
+      48,
+      55,
+      53,
+      55,
+      55,
+      52,
+      49
+    ],
+    [
+      45,
+      51,
+      52,
+      54,
+      52,
       50,
       46,
-      42,
-      40,
-      36,
-      37,
-      35,
+      51,
+      51,
+      54,
+      60,
+      57,
+      54,
+      50,
       47,
+      43,
+      47,
+      46,
+      44,
+      43,
+      48,
+      44,
+      39,
+      41,
       49,
+      51,
+      50,
+      52,
+      54,
       50
     ],
     [
-      29,
-      51,
-      51,
-      40,
-      34,
-      32,
-      51,
-      52,
-      52,
-      50,
-      49,
-      47,
-      46,
-      47,
-      27,
+      45,
       53,
-      32,
-      39,
-      28,
+      51,
+      51,
+      53,
       52,
-      48,
       44,
-      40,
-      39,
-      40,
-      36,
-      33,
-      32,
-      50,
-      50
-    ],
-    [
-      30,
-      49,
-      37,
-      38,
-      40,
-      38,
-      31,
-      52,
-      53,
-      34,
-      52,
-      48,
-      46,
-      26,
-      28,
-      20,
-      25,
-      27,
-      53,
-      41,
-      47,
-      43,
-      39,
-      39,
-      41,
-      45,
-      48,
-      50,
-      31,
-      28
-    ],
-    [
-      34,
-      31,
-      41,
-      40,
-      39,
       51,
-      30,
-      54,
-      56,
-      55,
-      26,
-      27,
-      47,
-      25,
-      22,
-      24,
-      22,
-      23,
-      53,
-      42,
+      49,
+      50,
+      50,
+      49,
+      46,
+      43,
+      43,
       40,
-      38,
-      41,
-      40,
-      42,
       45,
       47,
-      30,
-      29,
-      27
-    ],
-    [
+      45,
+      41,
+      48,
+      43,
       38,
-      42,
-      32,
-      43,
-      48,
-      50,
-      43,
-      29,
-      40,
-      30,
-      21,
-      25,
-      28,
-      24,
-      37,
-      28,
-      23,
-      24,
-      43,
-      52,
-      37,
-      39,
-      43,
-      28,
-      43,
-      45,
-      46,
-      21,
-      24,
-      28
-    ],
-    [
       41,
-      36,
-      43,
       48,
-      45,
-      48,
-      28,
-      55,
-      41,
-      58,
-      31,
-      24,
-      27,
-      42,
-      31,
-      31,
-      27,
-      33,
-      34,
-      36,
+      49,
       50,
-      48,
-      27,
-      25,
-      24,
-      44,
-      22,
-      29,
-      23,
-      40
+      51,
+      54,
+      47
     ],
     [
-      23,
-      26,
-      44,
-      48,
-      24,
-      49,
-      52,
       54,
-      56,
-      57,
-      25,
-      26,
-      33,
-      34,
-      33,
-      48,
-      26,
-      50,
-      52,
-      52,
-      51,
-      50,
-      48,
-      40,
-      45,
-      23,
-      30,
-      25,
-      22,
-      22
-    ],
-    [
-      20,
-      24,
-      45,
-      23,
-      49,
-      50,
-      26,
-      53,
-      55,
-      24,
-      25,
-      58,
-      34,
-      50,
-      51,
-      49,
-      52,
-      52,
-      52,
-      51,
-      51,
-      50,
-      49,
-      41,
-      39,
-      50,
-      35,
-      27,
-      28,
-      22
-    ],
-    [
-      28,
-      26,
-      46,
-      48,
-      47,
-      52,
-      52,
-      24,
-      21,
-      21,
-      23,
-      51,
-      49,
-      46,
-      49,
-      49,
-      53,
-      39,
-      54,
-      54,
-      55,
-      53,
-      49,
-      46,
-      42,
-      43,
-      57,
       62,
-      64,
-      62
+      60,
+      61,
+      60,
+      52,
+      41,
+      46,
+      45,
+      47,
+      50,
+      52,
+      54,
+      49,
+      48,
+      45,
+      52,
+      50,
+      47,
+      45,
+      53,
+      44,
+      41,
+      48,
+      50,
+      48,
+      50,
+      50,
+      52,
+      51
     ],
     [
-      30,
-      25,
+      52,
+      59,
+      55,
+      56,
+      59,
+      55,
+      45,
+      52,
+      49,
+      48,
+      51,
+      53,
+      52,
+      49,
+      46,
+      42,
+      49,
+      49,
+      45,
+      47,
+      54,
+      45,
+      41,
+      49,
+      51,
+      49,
+      51,
+      54,
+      55,
+      52
+    ],
+    [
+      47,
+      53,
+      53,
+      53,
+      58,
+      55,
       47,
       49,
       45,
-      51,
+      43,
+      49,
       52,
-      25,
-      21,
-      20,
-      22,
-      30,
+      53,
+      50,
+      50,
+      44,
+      49,
+      49,
+      48,
+      50,
+      54,
+      47,
       45,
+      50,
+      49,
+      48,
+      48,
       46,
       50,
-      51,
-      52,
-      40,
-      57,
-      61,
-      60,
-      22,
-      52,
-      47,
-      31,
-      30,
-      56,
-      59,
-      61,
-      62
+      47
     ],
     [
-      31,
-      51,
       50,
-      61,
-      59,
-      44,
-      35,
-      26,
-      57,
-      54,
-      29,
-      31,
-      44,
-      48,
-      52,
-      42,
-      46,
-      51,
-      26,
-      60,
-      59,
-      31,
+      50,
+      53,
       55,
+      59,
+      59,
+      53,
+      53,
+      47,
+      44,
+      44,
+      44,
+      45,
+      46,
+      43,
+      39,
+      47,
+      49,
+      49,
+      55,
+      62,
+      57,
+      55,
+      59,
+      57,
+      53,
+      55,
+      52,
+      52,
+      48
+    ],
+    [
+      49,
+      46,
       48,
-      29,
+      50,
+      55,
+      53,
+      53,
+      50,
+      49,
+      44,
+      47,
+      47,
+      51,
+      53,
+      49,
+      47,
+      51,
+      48,
+      45,
+      56,
+      57,
+      55,
+      54,
+      62,
+      58,
+      57,
+      57,
+      57,
+      52,
+      48
+    ],
+    [
+      44,
+      40,
+      44,
+      45,
+      55,
+      53,
+      55,
+      52,
+      52,
+      41,
+      42,
+      40,
+      44,
+      47,
+      47,
+      45,
+      50,
+      48,
+      45,
+      55,
+      58,
+      57,
+      53,
+      59,
+      57,
+      59,
+      60,
+      61,
+      53,
+      47
+    ],
+    [
+      40,
+      39,
+      47,
+      45,
+      52,
+      52,
+      53,
+      44,
+      50,
+      42,
+      42,
+      40,
+      51,
+      52,
+      52,
       53,
       54,
       49,
-      37,
-      36
+      47,
+      56,
+      57,
+      60,
+      56,
+      61,
+      58,
+      60,
+      57,
+      56,
+      49,
+      45
+    ],
+    [
+      46,
+      43,
+      49,
+      49,
+      56,
+      56,
+      59,
+      52,
+      54,
+      47,
+      45,
+      40,
+      50,
+      52,
+      50,
+      51,
+      52,
+      45,
+      42,
+      51,
+      55,
+      58,
+      56,
+      64,
+      60,
+      60,
+      60,
+      60,
+      51,
+      49
+    ],
+    [
+      43,
+      43,
+      45,
+      44,
+      50,
+      50,
+      52,
+      49,
+      54,
+      49,
+      52,
+      46,
+      53,
+      51,
+      50,
+      50,
+      51,
+      45,
+      43,
+      52,
+      54,
+      58,
+      56,
+      64,
+      59,
+      59,
+      58,
+      60,
+      51,
+      48
+    ],
+    [
+      44,
+      45,
+      48,
+      47,
+      49,
+      51,
+      51,
+      48,
+      48,
+      46,
+      50,
+      45,
+      50,
+      49,
+      49,
+      46,
+      49,
+      45,
+      48,
+      53,
+      58,
+      62,
+      62,
+      67,
+      64,
+      61,
+      57,
+      56,
+      50,
+      48
     ]
   ],
   "tiles": [
     {
       "x": 0,
       "y": 0,
-      "altitude": 37,
+      "altitude": 45,
       "kind": "water_medium"
     },
     {
       "x": 0,
       "y": 1,
-      "altitude": 34,
+      "altitude": 45,
       "kind": "water_medium"
     },
     {
       "x": 0,
       "y": 2,
-      "altitude": 52,
-      "kind": "land_grassland"
+      "altitude": 47,
+      "kind": "water_medium"
     },
     {
       "x": 0,
       "y": 3,
-      "altitude": 63,
-      "kind": "land_mountain"
+      "altitude": 49,
+      "kind": "water_medium"
     },
     {
       "x": 0,
       "y": 4,
-      "altitude": 43,
-      "kind": "water_medium"
+      "altitude": 53,
+      "kind": "water_shallow"
     },
     {
       "x": 0,
       "y": 5,
-      "altitude": 41,
-      "kind": "water_medium"
-    },
-    {
-      "x": 0,
-      "y": 6,
-      "altitude": 39,
-      "kind": "water_medium"
-    },
-    {
-      "x": 0,
-      "y": 7,
-      "altitude": 59,
-      "kind": "land_highland"
-    },
-    {
-      "x": 0,
-      "y": 8,
-      "altitude": 57,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 0,
-      "y": 9,
-      "altitude": 53,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 0,
-      "y": 10,
-      "altitude": 48,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 0,
-      "y": 11,
-      "altitude": 48,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 0,
-      "y": 12,
-      "altitude": 48,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 0,
-      "y": 13,
-      "altitude": 52,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 0,
-      "y": 14,
-      "altitude": 55,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 0,
-      "y": 15,
       "altitude": 54,
       "kind": "land_grassland"
     },
     {
       "x": 0,
-      "y": 16,
+      "y": 6,
+      "altitude": 54,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 0,
+      "y": 7,
+      "altitude": 52,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 0,
+      "y": 8,
       "altitude": 50,
       "kind": "water_shallow"
     },
     {
       "x": 0,
+      "y": 9,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 0,
+      "y": 10,
+      "altitude": 53,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 0,
+      "y": 11,
+      "altitude": 51,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 0,
+      "y": 12,
+      "altitude": 51,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 0,
+      "y": 13,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 0,
+      "y": 14,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 0,
+      "y": 15,
+      "altitude": 45,
+      "kind": "water_medium"
+    },
+    {
+      "x": 0,
+      "y": 16,
+      "altitude": 45,
+      "kind": "water_medium"
+    },
+    {
+      "x": 0,
       "y": 17,
-      "altitude": 31,
+      "altitude": 45,
       "kind": "water_medium"
     },
     {
       "x": 0,
       "y": 18,
-      "altitude": 37,
+      "altitude": 47,
       "kind": "water_medium"
     },
     {
       "x": 0,
       "y": 19,
-      "altitude": 58,
-      "kind": "land_highland"
+      "altitude": 48,
+      "kind": "water_medium"
     },
     {
       "x": 0,
       "y": 20,
-      "altitude": 57,
-      "kind": "land_grassland"
+      "altitude": 51,
+      "kind": "water_shallow"
     },
     {
       "x": 0,
       "y": 21,
-      "altitude": 56,
+      "altitude": 54,
       "kind": "land_grassland"
     },
     {
       "x": 0,
       "y": 22,
-      "altitude": 58,
-      "kind": "land_highland"
-    },
-    {
-      "x": 0,
-      "y": 23,
-      "altitude": 21,
-      "kind": "water_deep"
-    },
-    {
-      "x": 0,
-      "y": 24,
-      "altitude": 53,
+      "altitude": 56,
       "kind": "land_grassland"
     },
     {
       "x": 0,
+      "y": 23,
+      "altitude": 62,
+      "kind": "land_highland"
+    },
+    {
+      "x": 0,
+      "y": 24,
+      "altitude": 62,
+      "kind": "land_highland"
+    },
+    {
+      "x": 0,
       "y": 25,
-      "altitude": 52,
+      "altitude": 59,
       "kind": "land_grassland"
     },
     {
       "x": 0,
       "y": 26,
-      "altitude": 25,
-      "kind": "water_deep"
+      "altitude": 58,
+      "kind": "land_grassland"
     },
     {
       "x": 0,
       "y": 27,
-      "altitude": 48,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 0,
-      "y": 28,
       "altitude": 56,
       "kind": "land_grassland"
     },
     {
       "x": 0,
+      "y": 28,
+      "altitude": 51,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 0,
       "y": 29,
-      "altitude": 32,
+      "altitude": 47,
       "kind": "water_medium"
     },
     {
       "x": 1,
       "y": 0,
-      "altitude": 35,
+      "altitude": 46,
       "kind": "water_medium"
     },
     {
       "x": 1,
       "y": 1,
-      "altitude": 29,
-      "kind": "water_deep"
+      "altitude": 46,
+      "kind": "water_medium"
     },
     {
       "x": 1,
       "y": 2,
-      "altitude": 33,
+      "altitude": 46,
       "kind": "water_medium"
     },
     {
       "x": 1,
       "y": 3,
-      "altitude": 63,
-      "kind": "land_mountain"
+      "altitude": 51,
+      "kind": "water_shallow"
     },
     {
       "x": 1,
       "y": 4,
-      "altitude": 40,
-      "kind": "water_medium"
-    },
-    {
-      "x": 1,
-      "y": 5,
-      "altitude": 38,
-      "kind": "water_medium"
-    },
-    {
-      "x": 1,
-      "y": 6,
-      "altitude": 37,
-      "kind": "water_medium"
-    },
-    {
-      "x": 1,
-      "y": 7,
-      "altitude": 57,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 1,
-      "y": 8,
-      "altitude": 58,
-      "kind": "land_highland"
-    },
-    {
-      "x": 1,
-      "y": 9,
-      "altitude": 55,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 1,
-      "y": 10,
-      "altitude": 50,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 1,
-      "y": 11,
-      "altitude": 49,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 1,
-      "y": 12,
-      "altitude": 51,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 1,
-      "y": 13,
-      "altitude": 55,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 1,
-      "y": 14,
-      "altitude": 58,
-      "kind": "land_highland"
-    },
-    {
-      "x": 1,
-      "y": 15,
-      "altitude": 30,
-      "kind": "water_medium"
-    },
-    {
-      "x": 1,
-      "y": 16,
-      "altitude": 31,
-      "kind": "water_medium"
-    },
-    {
-      "x": 1,
-      "y": 17,
-      "altitude": 25,
-      "kind": "water_deep"
-    },
-    {
-      "x": 1,
-      "y": 18,
-      "altitude": 39,
-      "kind": "water_medium"
-    },
-    {
-      "x": 1,
-      "y": 19,
-      "altitude": 36,
-      "kind": "water_medium"
-    },
-    {
-      "x": 1,
-      "y": 20,
-      "altitude": 35,
-      "kind": "water_medium"
-    },
-    {
-      "x": 1,
-      "y": 21,
-      "altitude": 34,
-      "kind": "water_medium"
-    },
-    {
-      "x": 1,
-      "y": 22,
-      "altitude": 55,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 1,
-      "y": 23,
       "altitude": 54,
       "kind": "land_grassland"
     },
     {
       "x": 1,
-      "y": 24,
-      "altitude": 46,
+      "y": 5,
+      "altitude": 52,
       "kind": "water_shallow"
     },
     {
       "x": 1,
-      "y": 25,
+      "y": 6,
+      "altitude": 51,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 1,
+      "y": 7,
+      "altitude": 55,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 1,
+      "y": 8,
+      "altitude": 48,
+      "kind": "water_medium"
+    },
+    {
+      "x": 1,
+      "y": 9,
+      "altitude": 43,
+      "kind": "water_medium"
+    },
+    {
+      "x": 1,
+      "y": 10,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 1,
+      "y": 11,
+      "altitude": 48,
+      "kind": "water_medium"
+    },
+    {
+      "x": 1,
+      "y": 12,
+      "altitude": 43,
+      "kind": "water_medium"
+    },
+    {
+      "x": 1,
+      "y": 13,
+      "altitude": 46,
+      "kind": "water_medium"
+    },
+    {
+      "x": 1,
+      "y": 14,
+      "altitude": 48,
+      "kind": "water_medium"
+    },
+    {
+      "x": 1,
+      "y": 15,
       "altitude": 44,
       "kind": "water_medium"
     },
     {
       "x": 1,
-      "y": 26,
-      "altitude": 47,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 1,
-      "y": 27,
-      "altitude": 36,
+      "y": 16,
+      "altitude": 43,
       "kind": "water_medium"
     },
     {
       "x": 1,
+      "y": 17,
+      "altitude": 44,
+      "kind": "water_medium"
+    },
+    {
+      "x": 1,
+      "y": 18,
+      "altitude": 47,
+      "kind": "water_medium"
+    },
+    {
+      "x": 1,
+      "y": 19,
+      "altitude": 48,
+      "kind": "water_medium"
+    },
+    {
+      "x": 1,
+      "y": 20,
+      "altitude": 52,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 1,
+      "y": 21,
+      "altitude": 53,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 1,
+      "y": 22,
+      "altitude": 59,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 1,
+      "y": 23,
+      "altitude": 62,
+      "kind": "land_highland"
+    },
+    {
+      "x": 1,
+      "y": 24,
+      "altitude": 62,
+      "kind": "land_highland"
+    },
+    {
+      "x": 1,
+      "y": 25,
+      "altitude": 59,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 1,
+      "y": 26,
+      "altitude": 60,
+      "kind": "land_highland"
+    },
+    {
+      "x": 1,
+      "y": 27,
+      "altitude": 55,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 1,
       "y": 28,
-      "altitude": 40,
+      "altitude": 49,
       "kind": "water_medium"
     },
     {
       "x": 1,
       "y": 29,
-      "altitude": 34,
+      "altitude": 47,
       "kind": "water_medium"
     },
     {
       "x": 2,
       "y": 0,
-      "altitude": 37,
+      "altitude": 44,
       "kind": "water_medium"
     },
     {
       "x": 2,
       "y": 1,
-      "altitude": 31,
+      "altitude": 45,
       "kind": "water_medium"
     },
     {
       "x": 2,
       "y": 2,
-      "altitude": 32,
+      "altitude": 46,
       "kind": "water_medium"
     },
     {
       "x": 2,
       "y": 3,
-      "altitude": 60,
-      "kind": "land_highland"
+      "altitude": 46,
+      "kind": "water_medium"
     },
     {
       "x": 2,
       "y": 4,
-      "altitude": 35,
+      "altitude": 48,
       "kind": "water_medium"
     },
     {
       "x": 2,
       "y": 5,
-      "altitude": 39,
+      "altitude": 49,
       "kind": "water_medium"
     },
     {
       "x": 2,
       "y": 6,
-      "altitude": 52,
-      "kind": "land_grassland"
+      "altitude": 48,
+      "kind": "water_medium"
     },
     {
       "x": 2,
       "y": 7,
-      "altitude": 55,
-      "kind": "land_grassland"
+      "altitude": 52,
+      "kind": "water_shallow"
     },
     {
       "x": 2,
       "y": 8,
-      "altitude": 55,
-      "kind": "land_grassland"
+      "altitude": 48,
+      "kind": "water_medium"
     },
     {
       "x": 2,
       "y": 9,
-      "altitude": 54,
-      "kind": "land_grassland"
+      "altitude": 44,
+      "kind": "water_medium"
     },
     {
       "x": 2,
       "y": 10,
-      "altitude": 49,
+      "altitude": 50,
       "kind": "water_shallow"
     },
     {
       "x": 2,
       "y": 11,
       "altitude": 49,
-      "kind": "water_shallow"
+      "kind": "water_medium"
     },
     {
       "x": 2,
       "y": 12,
-      "altitude": 53,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 2,
-      "y": 13,
-      "altitude": 59,
-      "kind": "land_highland"
-    },
-    {
-      "x": 2,
-      "y": 14,
-      "altitude": 62,
-      "kind": "land_mountain"
-    },
-    {
-      "x": 2,
-      "y": 15,
-      "altitude": 60,
-      "kind": "land_highland"
-    },
-    {
-      "x": 2,
-      "y": 16,
-      "altitude": 55,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 2,
-      "y": 17,
       "altitude": 41,
       "kind": "water_medium"
     },
     {
       "x": 2,
-      "y": 18,
-      "altitude": 40,
+      "y": 13,
+      "altitude": 42,
       "kind": "water_medium"
+    },
+    {
+      "x": 2,
+      "y": 14,
+      "altitude": 42,
+      "kind": "water_medium"
+    },
+    {
+      "x": 2,
+      "y": 15,
+      "altitude": 41,
+      "kind": "water_medium"
+    },
+    {
+      "x": 2,
+      "y": 16,
+      "altitude": 39,
+      "kind": "water_deep"
+    },
+    {
+      "x": 2,
+      "y": 17,
+      "altitude": 46,
+      "kind": "water_medium"
+    },
+    {
+      "x": 2,
+      "y": 18,
+      "altitude": 52,
+      "kind": "water_shallow"
     },
     {
       "x": 2,
       "y": 19,
       "altitude": 52,
-      "kind": "land_grassland"
+      "kind": "water_shallow"
     },
     {
       "x": 2,
       "y": 20,
-      "altitude": 46,
+      "altitude": 52,
       "kind": "water_shallow"
     },
     {
@@ -1203,3469 +1203,3469 @@
     {
       "x": 2,
       "y": 22,
-      "altitude": 46,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 2,
-      "y": 23,
-      "altitude": 57,
+      "altitude": 58,
       "kind": "land_grassland"
     },
     {
       "x": 2,
+      "y": 23,
+      "altitude": 61,
+      "kind": "land_highland"
+    },
+    {
+      "x": 2,
       "y": 24,
-      "altitude": 21,
-      "kind": "water_deep"
+      "altitude": 61,
+      "kind": "land_highland"
     },
     {
       "x": 2,
       "y": 25,
-      "altitude": 25,
-      "kind": "water_deep"
+      "altitude": 59,
+      "kind": "land_grassland"
     },
     {
       "x": 2,
       "y": 26,
-      "altitude": 43,
-      "kind": "water_medium"
+      "altitude": 60,
+      "kind": "land_highland"
     },
     {
       "x": 2,
       "y": 27,
-      "altitude": 46,
+      "altitude": 53,
       "kind": "water_shallow"
     },
     {
       "x": 2,
       "y": 28,
-      "altitude": 37,
+      "altitude": 47,
       "kind": "water_medium"
     },
     {
       "x": 2,
       "y": 29,
-      "altitude": 36,
+      "altitude": 48,
       "kind": "water_medium"
     },
     {
       "x": 3,
       "y": 0,
-      "altitude": 30,
+      "altitude": 41,
       "kind": "water_medium"
     },
     {
       "x": 3,
       "y": 1,
-      "altitude": 51,
-      "kind": "land_grassland"
+      "altitude": 43,
+      "kind": "water_medium"
     },
     {
       "x": 3,
       "y": 2,
-      "altitude": 25,
-      "kind": "water_deep"
+      "altitude": 45,
+      "kind": "water_medium"
     },
     {
       "x": 3,
       "y": 3,
-      "altitude": 27,
-      "kind": "water_deep"
+      "altitude": 48,
+      "kind": "water_medium"
     },
     {
       "x": 3,
       "y": 4,
-      "altitude": 33,
+      "altitude": 49,
       "kind": "water_medium"
     },
     {
       "x": 3,
       "y": 5,
-      "altitude": 34,
+      "altitude": 49,
       "kind": "water_medium"
     },
     {
       "x": 3,
       "y": 6,
-      "altitude": 49,
-      "kind": "water_shallow"
+      "altitude": 45,
+      "kind": "water_medium"
     },
     {
       "x": 3,
       "y": 7,
-      "altitude": 52,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 3,
-      "y": 8,
-      "altitude": 53,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 3,
-      "y": 9,
-      "altitude": 54,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 3,
-      "y": 10,
-      "altitude": 49,
+      "altitude": 51,
       "kind": "water_shallow"
     },
     {
       "x": 3,
+      "y": 8,
+      "altitude": 43,
+      "kind": "water_medium"
+    },
+    {
+      "x": 3,
+      "y": 9,
+      "altitude": 41,
+      "kind": "water_medium"
+    },
+    {
+      "x": 3,
+      "y": 10,
+      "altitude": 47,
+      "kind": "water_medium"
+    },
+    {
+      "x": 3,
       "y": 11,
-      "altitude": 48,
+      "altitude": 51,
       "kind": "water_shallow"
     },
     {
       "x": 3,
       "y": 12,
+      "altitude": 42,
+      "kind": "water_medium"
+    },
+    {
+      "x": 3,
+      "y": 13,
+      "altitude": 45,
+      "kind": "water_medium"
+    },
+    {
+      "x": 3,
+      "y": 14,
+      "altitude": 46,
+      "kind": "water_medium"
+    },
+    {
+      "x": 3,
+      "y": 15,
+      "altitude": 43,
+      "kind": "water_medium"
+    },
+    {
+      "x": 3,
+      "y": 16,
+      "altitude": 40,
+      "kind": "water_deep"
+    },
+    {
+      "x": 3,
+      "y": 17,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 3,
+      "y": 18,
       "altitude": 55,
       "kind": "land_grassland"
     },
     {
       "x": 3,
+      "y": 19,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 3,
+      "y": 20,
+      "altitude": 51,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 3,
+      "y": 21,
+      "altitude": 50,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 3,
+      "y": 22,
+      "altitude": 52,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 3,
+      "y": 23,
+      "altitude": 53,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 3,
+      "y": 24,
+      "altitude": 55,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 3,
+      "y": 25,
+      "altitude": 55,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 3,
+      "y": 26,
+      "altitude": 57,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 3,
+      "y": 27,
+      "altitude": 46,
+      "kind": "water_medium"
+    },
+    {
+      "x": 3,
+      "y": 28,
+      "altitude": 43,
+      "kind": "water_medium"
+    },
+    {
+      "x": 3,
+      "y": 29,
+      "altitude": 44,
+      "kind": "water_medium"
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "altitude": 43,
+      "kind": "water_medium"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "altitude": 43,
+      "kind": "water_medium"
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "altitude": 46,
+      "kind": "water_medium"
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "altitude": 47,
+      "kind": "water_medium"
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "altitude": 50,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 4,
+      "y": 6,
+      "altitude": 48,
+      "kind": "water_medium"
+    },
+    {
+      "x": 4,
+      "y": 7,
+      "altitude": 54,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 4,
+      "y": 8,
+      "altitude": 50,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 4,
+      "y": 9,
+      "altitude": 50,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 4,
+      "y": 10,
+      "altitude": 54,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 4,
+      "y": 11,
+      "altitude": 58,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 4,
+      "y": 12,
+      "altitude": 50,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 4,
       "y": 13,
+      "altitude": 52,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 4,
+      "y": 14,
+      "altitude": 50,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 4,
+      "y": 15,
+      "altitude": 48,
+      "kind": "water_medium"
+    },
+    {
+      "x": 4,
+      "y": 16,
+      "altitude": 43,
+      "kind": "water_medium"
+    },
+    {
+      "x": 4,
+      "y": 17,
+      "altitude": 51,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 4,
+      "y": 18,
+      "altitude": 54,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 4,
+      "y": 19,
+      "altitude": 51,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 4,
+      "y": 20,
+      "altitude": 50,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 4,
+      "y": 21,
+      "altitude": 48,
+      "kind": "water_medium"
+    },
+    {
+      "x": 4,
+      "y": 22,
+      "altitude": 50,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 4,
+      "y": 23,
+      "altitude": 52,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 4,
+      "y": 24,
+      "altitude": 54,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 4,
+      "y": 25,
+      "altitude": 54,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 4,
+      "y": 26,
+      "altitude": 59,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 4,
+      "y": 27,
+      "altitude": 46,
+      "kind": "water_medium"
+    },
+    {
+      "x": 4,
+      "y": 28,
+      "altitude": 43,
+      "kind": "water_medium"
+    },
+    {
+      "x": 4,
+      "y": 29,
+      "altitude": 45,
+      "kind": "water_medium"
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "altitude": 43,
+      "kind": "water_medium"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "altitude": 42,
+      "kind": "water_medium"
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "altitude": 45,
+      "kind": "water_medium"
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "altitude": 46,
+      "kind": "water_medium"
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "altitude": 43,
+      "kind": "water_medium"
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "altitude": 47,
+      "kind": "water_medium"
+    },
+    {
+      "x": 5,
+      "y": 6,
+      "altitude": 45,
+      "kind": "water_medium"
+    },
+    {
+      "x": 5,
+      "y": 7,
+      "altitude": 53,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 5,
+      "y": 8,
+      "altitude": 48,
+      "kind": "water_medium"
+    },
+    {
+      "x": 5,
+      "y": 9,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 5,
+      "y": 10,
+      "altitude": 50,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 5,
+      "y": 11,
+      "altitude": 53,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 5,
+      "y": 12,
+      "altitude": 48,
+      "kind": "water_medium"
+    },
+    {
+      "x": 5,
+      "y": 13,
+      "altitude": 52,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 5,
+      "y": 14,
+      "altitude": 51,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 5,
+      "y": 15,
+      "altitude": 47,
+      "kind": "water_medium"
+    },
+    {
+      "x": 5,
+      "y": 16,
+      "altitude": 46,
+      "kind": "water_medium"
+    },
+    {
+      "x": 5,
+      "y": 17,
+      "altitude": 51,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 5,
+      "y": 18,
+      "altitude": 52,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 5,
+      "y": 19,
+      "altitude": 52,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 5,
+      "y": 20,
+      "altitude": 54,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 5,
+      "y": 21,
+      "altitude": 51,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 5,
+      "y": 22,
+      "altitude": 53,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 5,
+      "y": 23,
+      "altitude": 55,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 5,
+      "y": 24,
+      "altitude": 55,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 5,
+      "y": 25,
+      "altitude": 54,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 5,
+      "y": 26,
+      "altitude": 58,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 5,
+      "y": 27,
+      "altitude": 46,
+      "kind": "water_medium"
+    },
+    {
+      "x": 5,
+      "y": 28,
+      "altitude": 42,
+      "kind": "water_medium"
+    },
+    {
+      "x": 5,
+      "y": 29,
+      "altitude": 46,
+      "kind": "water_medium"
+    },
+    {
+      "x": 6,
+      "y": 0,
+      "altitude": 44,
+      "kind": "water_medium"
+    },
+    {
+      "x": 6,
+      "y": 1,
+      "altitude": 40,
+      "kind": "water_deep"
+    },
+    {
+      "x": 6,
+      "y": 2,
+      "altitude": 45,
+      "kind": "water_medium"
+    },
+    {
+      "x": 6,
+      "y": 3,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 6,
+      "y": 4,
+      "altitude": 43,
+      "kind": "water_medium"
+    },
+    {
+      "x": 6,
+      "y": 5,
+      "altitude": 47,
+      "kind": "water_medium"
+    },
+    {
+      "x": 6,
+      "y": 6,
+      "altitude": 48,
+      "kind": "water_medium"
+    },
+    {
+      "x": 6,
+      "y": 7,
+      "altitude": 53,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 6,
+      "y": 8,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 6,
+      "y": 9,
+      "altitude": 55,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 6,
+      "y": 10,
+      "altitude": 56,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 6,
+      "y": 11,
+      "altitude": 57,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 6,
+      "y": 12,
+      "altitude": 51,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 6,
+      "y": 13,
+      "altitude": 51,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 6,
+      "y": 14,
+      "altitude": 48,
+      "kind": "water_medium"
+    },
+    {
+      "x": 6,
+      "y": 15,
+      "altitude": 45,
+      "kind": "water_medium"
+    },
+    {
+      "x": 6,
+      "y": 16,
+      "altitude": 48,
+      "kind": "water_medium"
+    },
+    {
+      "x": 6,
+      "y": 17,
+      "altitude": 54,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 6,
+      "y": 18,
+      "altitude": 56,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 6,
+      "y": 19,
+      "altitude": 54,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 6,
+      "y": 20,
+      "altitude": 56,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 6,
+      "y": 21,
+      "altitude": 52,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 6,
+      "y": 22,
+      "altitude": 50,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 6,
+      "y": 23,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 6,
+      "y": 24,
+      "altitude": 52,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 6,
+      "y": 25,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 6,
+      "y": 26,
+      "altitude": 55,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 6,
+      "y": 27,
+      "altitude": 46,
+      "kind": "water_medium"
+    },
+    {
+      "x": 6,
+      "y": 28,
+      "altitude": 45,
+      "kind": "water_medium"
+    },
+    {
+      "x": 6,
+      "y": 29,
+      "altitude": 47,
+      "kind": "water_medium"
+    },
+    {
+      "x": 7,
+      "y": 0,
+      "altitude": 40,
+      "kind": "water_deep"
+    },
+    {
+      "x": 7,
+      "y": 1,
+      "altitude": 35,
+      "kind": "water_deep"
+    },
+    {
+      "x": 7,
+      "y": 2,
+      "altitude": 40,
+      "kind": "water_deep"
+    },
+    {
+      "x": 7,
+      "y": 3,
+      "altitude": 45,
+      "kind": "water_medium"
+    },
+    {
+      "x": 7,
+      "y": 4,
+      "altitude": 40,
+      "kind": "water_deep"
+    },
+    {
+      "x": 7,
+      "y": 5,
+      "altitude": 45,
+      "kind": "water_medium"
+    },
+    {
+      "x": 7,
+      "y": 6,
+      "altitude": 46,
+      "kind": "water_medium"
+    },
+    {
+      "x": 7,
+      "y": 7,
+      "altitude": 53,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 7,
+      "y": 8,
+      "altitude": 48,
+      "kind": "water_medium"
+    },
+    {
+      "x": 7,
+      "y": 9,
+      "altitude": 54,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 7,
+      "y": 10,
+      "altitude": 54,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 7,
+      "y": 11,
+      "altitude": 53,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 7,
+      "y": 12,
+      "altitude": 46,
+      "kind": "water_medium"
+    },
+    {
+      "x": 7,
+      "y": 13,
+      "altitude": 50,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 7,
+      "y": 14,
+      "altitude": 48,
+      "kind": "water_medium"
+    },
+    {
+      "x": 7,
+      "y": 15,
+      "altitude": 47,
+      "kind": "water_medium"
+    },
+    {
+      "x": 7,
+      "y": 16,
+      "altitude": 51,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 7,
+      "y": 17,
+      "altitude": 56,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 7,
+      "y": 18,
+      "altitude": 56,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 7,
+      "y": 19,
+      "altitude": 55,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 7,
+      "y": 20,
+      "altitude": 56,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 7,
+      "y": 21,
+      "altitude": 53,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 7,
+      "y": 22,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 7,
+      "y": 23,
+      "altitude": 46,
+      "kind": "water_medium"
+    },
+    {
+      "x": 7,
+      "y": 24,
+      "altitude": 51,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 7,
+      "y": 25,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 7,
+      "y": 26,
+      "altitude": 53,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 7,
+      "y": 27,
+      "altitude": 47,
+      "kind": "water_medium"
+    },
+    {
+      "x": 7,
+      "y": 28,
+      "altitude": 47,
+      "kind": "water_medium"
+    },
+    {
+      "x": 7,
+      "y": 29,
+      "altitude": 43,
+      "kind": "water_medium"
+    },
+    {
+      "x": 8,
+      "y": 0,
+      "altitude": 48,
+      "kind": "water_medium"
+    },
+    {
+      "x": 8,
+      "y": 1,
+      "altitude": 45,
+      "kind": "water_medium"
+    },
+    {
+      "x": 8,
+      "y": 2,
+      "altitude": 50,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 8,
+      "y": 3,
+      "altitude": 53,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 8,
+      "y": 4,
+      "altitude": 46,
+      "kind": "water_medium"
+    },
+    {
+      "x": 8,
+      "y": 5,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 8,
+      "y": 6,
+      "altitude": 52,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 8,
+      "y": 7,
+      "altitude": 56,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 8,
+      "y": 8,
+      "altitude": 53,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 8,
+      "y": 9,
+      "altitude": 59,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 8,
+      "y": 10,
+      "altitude": 59,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 8,
+      "y": 11,
+      "altitude": 54,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 8,
+      "y": 12,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 8,
+      "y": 13,
+      "altitude": 50,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 8,
+      "y": 14,
+      "altitude": 48,
+      "kind": "water_medium"
+    },
+    {
+      "x": 8,
+      "y": 15,
+      "altitude": 45,
+      "kind": "water_medium"
+    },
+    {
+      "x": 8,
+      "y": 16,
+      "altitude": 50,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 8,
+      "y": 17,
+      "altitude": 52,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 8,
+      "y": 18,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 8,
+      "y": 19,
+      "altitude": 51,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 8,
+      "y": 20,
+      "altitude": 54,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 8,
+      "y": 21,
+      "altitude": 52,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 8,
+      "y": 22,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 8,
+      "y": 23,
+      "altitude": 51,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 8,
+      "y": 24,
+      "altitude": 56,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 8,
+      "y": 25,
+      "altitude": 51,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 8,
+      "y": 26,
+      "altitude": 53,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 8,
+      "y": 27,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 8,
+      "y": 28,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 8,
+      "y": 29,
+      "altitude": 47,
+      "kind": "water_medium"
+    },
+    {
+      "x": 9,
+      "y": 0,
+      "altitude": 48,
+      "kind": "water_medium"
+    },
+    {
+      "x": 9,
+      "y": 1,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 9,
+      "y": 2,
+      "altitude": 52,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 9,
+      "y": 3,
+      "altitude": 57,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 9,
+      "y": 4,
+      "altitude": 51,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 9,
+      "y": 5,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 9,
+      "y": 6,
+      "altitude": 48,
+      "kind": "water_medium"
+    },
+    {
+      "x": 9,
+      "y": 7,
+      "altitude": 55,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 9,
+      "y": 8,
+      "altitude": 52,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 9,
+      "y": 9,
+      "altitude": 55,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 9,
+      "y": 10,
+      "altitude": 56,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 9,
+      "y": 11,
+      "altitude": 51,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 9,
+      "y": 12,
+      "altitude": 45,
+      "kind": "water_medium"
+    },
+    {
+      "x": 9,
+      "y": 13,
+      "altitude": 45,
+      "kind": "water_medium"
+    },
+    {
+      "x": 9,
+      "y": 14,
+      "altitude": 44,
+      "kind": "water_medium"
+    },
+    {
+      "x": 9,
+      "y": 15,
+      "altitude": 40,
+      "kind": "water_deep"
+    },
+    {
+      "x": 9,
+      "y": 16,
+      "altitude": 47,
+      "kind": "water_medium"
+    },
+    {
+      "x": 9,
+      "y": 17,
+      "altitude": 47,
+      "kind": "water_medium"
+    },
+    {
+      "x": 9,
+      "y": 18,
+      "altitude": 43,
+      "kind": "water_medium"
+    },
+    {
+      "x": 9,
+      "y": 19,
+      "altitude": 44,
+      "kind": "water_medium"
+    },
+    {
+      "x": 9,
+      "y": 20,
+      "altitude": 52,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 9,
+      "y": 21,
+      "altitude": 48,
+      "kind": "water_medium"
+    },
+    {
+      "x": 9,
+      "y": 22,
+      "altitude": 45,
+      "kind": "water_medium"
+    },
+    {
+      "x": 9,
+      "y": 23,
+      "altitude": 48,
+      "kind": "water_medium"
+    },
+    {
+      "x": 9,
+      "y": 24,
+      "altitude": 55,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 9,
+      "y": 25,
+      "altitude": 53,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 9,
+      "y": 26,
+      "altitude": 55,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 9,
+      "y": 27,
+      "altitude": 55,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 9,
+      "y": 28,
+      "altitude": 52,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 9,
+      "y": 29,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 10,
+      "y": 0,
+      "altitude": 45,
+      "kind": "water_medium"
+    },
+    {
+      "x": 10,
+      "y": 1,
+      "altitude": 51,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 10,
+      "y": 2,
+      "altitude": 52,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 10,
+      "y": 3,
+      "altitude": 54,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 10,
+      "y": 4,
+      "altitude": 52,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 10,
+      "y": 5,
+      "altitude": 50,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 10,
+      "y": 6,
+      "altitude": 46,
+      "kind": "water_medium"
+    },
+    {
+      "x": 10,
+      "y": 7,
+      "altitude": 51,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 10,
+      "y": 8,
+      "altitude": 51,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 10,
+      "y": 9,
+      "altitude": 54,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 10,
+      "y": 10,
+      "altitude": 60,
+      "kind": "land_highland"
+    },
+    {
+      "x": 10,
+      "y": 11,
+      "altitude": 57,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 10,
+      "y": 12,
+      "altitude": 54,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 10,
+      "y": 13,
+      "altitude": 50,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 10,
+      "y": 14,
+      "altitude": 47,
+      "kind": "water_medium"
+    },
+    {
+      "x": 10,
+      "y": 15,
+      "altitude": 43,
+      "kind": "water_medium"
+    },
+    {
+      "x": 10,
+      "y": 16,
+      "altitude": 47,
+      "kind": "water_medium"
+    },
+    {
+      "x": 10,
+      "y": 17,
+      "altitude": 46,
+      "kind": "water_medium"
+    },
+    {
+      "x": 10,
+      "y": 18,
+      "altitude": 44,
+      "kind": "water_medium"
+    },
+    {
+      "x": 10,
+      "y": 19,
+      "altitude": 43,
+      "kind": "water_medium"
+    },
+    {
+      "x": 10,
+      "y": 20,
+      "altitude": 48,
+      "kind": "water_medium"
+    },
+    {
+      "x": 10,
+      "y": 21,
+      "altitude": 44,
+      "kind": "water_medium"
+    },
+    {
+      "x": 10,
+      "y": 22,
+      "altitude": 39,
+      "kind": "water_deep"
+    },
+    {
+      "x": 10,
+      "y": 23,
+      "altitude": 41,
+      "kind": "water_medium"
+    },
+    {
+      "x": 10,
+      "y": 24,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 10,
+      "y": 25,
+      "altitude": 51,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 10,
+      "y": 26,
+      "altitude": 50,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 10,
+      "y": 27,
+      "altitude": 52,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 10,
+      "y": 28,
+      "altitude": 54,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 10,
+      "y": 29,
+      "altitude": 50,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 11,
+      "y": 0,
+      "altitude": 45,
+      "kind": "water_medium"
+    },
+    {
+      "x": 11,
+      "y": 1,
+      "altitude": 53,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 11,
+      "y": 2,
+      "altitude": 51,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 11,
+      "y": 3,
+      "altitude": 51,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 11,
+      "y": 4,
+      "altitude": 53,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 11,
+      "y": 5,
+      "altitude": 52,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 11,
+      "y": 6,
+      "altitude": 44,
+      "kind": "water_medium"
+    },
+    {
+      "x": 11,
+      "y": 7,
+      "altitude": 51,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 11,
+      "y": 8,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 11,
+      "y": 9,
+      "altitude": 50,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 11,
+      "y": 10,
+      "altitude": 50,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 11,
+      "y": 11,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 11,
+      "y": 12,
+      "altitude": 46,
+      "kind": "water_medium"
+    },
+    {
+      "x": 11,
+      "y": 13,
+      "altitude": 43,
+      "kind": "water_medium"
+    },
+    {
+      "x": 11,
+      "y": 14,
+      "altitude": 43,
+      "kind": "water_medium"
+    },
+    {
+      "x": 11,
+      "y": 15,
+      "altitude": 40,
+      "kind": "water_deep"
+    },
+    {
+      "x": 11,
+      "y": 16,
+      "altitude": 45,
+      "kind": "water_medium"
+    },
+    {
+      "x": 11,
+      "y": 17,
+      "altitude": 47,
+      "kind": "water_medium"
+    },
+    {
+      "x": 11,
+      "y": 18,
+      "altitude": 45,
+      "kind": "water_medium"
+    },
+    {
+      "x": 11,
+      "y": 19,
+      "altitude": 41,
+      "kind": "water_medium"
+    },
+    {
+      "x": 11,
+      "y": 20,
+      "altitude": 48,
+      "kind": "water_medium"
+    },
+    {
+      "x": 11,
+      "y": 21,
+      "altitude": 43,
+      "kind": "water_medium"
+    },
+    {
+      "x": 11,
+      "y": 22,
+      "altitude": 38,
+      "kind": "water_deep"
+    },
+    {
+      "x": 11,
+      "y": 23,
+      "altitude": 41,
+      "kind": "water_medium"
+    },
+    {
+      "x": 11,
+      "y": 24,
+      "altitude": 48,
+      "kind": "water_medium"
+    },
+    {
+      "x": 11,
+      "y": 25,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 11,
+      "y": 26,
+      "altitude": 50,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 11,
+      "y": 27,
+      "altitude": 51,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 11,
+      "y": 28,
+      "altitude": 54,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 11,
+      "y": 29,
+      "altitude": 47,
+      "kind": "water_medium"
+    },
+    {
+      "x": 12,
+      "y": 0,
+      "altitude": 54,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 12,
+      "y": 1,
+      "altitude": 62,
+      "kind": "land_highland"
+    },
+    {
+      "x": 12,
+      "y": 2,
+      "altitude": 60,
+      "kind": "land_highland"
+    },
+    {
+      "x": 12,
+      "y": 3,
       "altitude": 61,
       "kind": "land_highland"
     },
     {
-      "x": 3,
+      "x": 12,
+      "y": 4,
+      "altitude": 60,
+      "kind": "land_highland"
+    },
+    {
+      "x": 12,
+      "y": 5,
+      "altitude": 52,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 12,
+      "y": 6,
+      "altitude": 41,
+      "kind": "water_medium"
+    },
+    {
+      "x": 12,
+      "y": 7,
+      "altitude": 46,
+      "kind": "water_medium"
+    },
+    {
+      "x": 12,
+      "y": 8,
+      "altitude": 45,
+      "kind": "water_medium"
+    },
+    {
+      "x": 12,
+      "y": 9,
+      "altitude": 47,
+      "kind": "water_medium"
+    },
+    {
+      "x": 12,
+      "y": 10,
+      "altitude": 50,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 12,
+      "y": 11,
+      "altitude": 52,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 12,
+      "y": 12,
+      "altitude": 54,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 12,
+      "y": 13,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 12,
       "y": 14,
-      "altitude": 66,
+      "altitude": 48,
+      "kind": "water_medium"
+    },
+    {
+      "x": 12,
+      "y": 15,
+      "altitude": 45,
+      "kind": "water_medium"
+    },
+    {
+      "x": 12,
+      "y": 16,
+      "altitude": 52,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 12,
+      "y": 17,
+      "altitude": 50,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 12,
+      "y": 18,
+      "altitude": 47,
+      "kind": "water_medium"
+    },
+    {
+      "x": 12,
+      "y": 19,
+      "altitude": 45,
+      "kind": "water_medium"
+    },
+    {
+      "x": 12,
+      "y": 20,
+      "altitude": 53,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 12,
+      "y": 21,
+      "altitude": 44,
+      "kind": "water_medium"
+    },
+    {
+      "x": 12,
+      "y": 22,
+      "altitude": 41,
+      "kind": "water_medium"
+    },
+    {
+      "x": 12,
+      "y": 23,
+      "altitude": 48,
+      "kind": "water_medium"
+    },
+    {
+      "x": 12,
+      "y": 24,
+      "altitude": 50,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 12,
+      "y": 25,
+      "altitude": 48,
+      "kind": "water_medium"
+    },
+    {
+      "x": 12,
+      "y": 26,
+      "altitude": 50,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 12,
+      "y": 27,
+      "altitude": 50,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 12,
+      "y": 28,
+      "altitude": 52,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 12,
+      "y": 29,
+      "altitude": 51,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 13,
+      "y": 0,
+      "altitude": 52,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 13,
+      "y": 1,
+      "altitude": 59,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 13,
+      "y": 2,
+      "altitude": 55,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 13,
+      "y": 3,
+      "altitude": 56,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 13,
+      "y": 4,
+      "altitude": 59,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 13,
+      "y": 5,
+      "altitude": 55,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 13,
+      "y": 6,
+      "altitude": 45,
+      "kind": "water_medium"
+    },
+    {
+      "x": 13,
+      "y": 7,
+      "altitude": 52,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 13,
+      "y": 8,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 13,
+      "y": 9,
+      "altitude": 48,
+      "kind": "water_medium"
+    },
+    {
+      "x": 13,
+      "y": 10,
+      "altitude": 51,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 13,
+      "y": 11,
+      "altitude": 53,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 13,
+      "y": 12,
+      "altitude": 52,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 13,
+      "y": 13,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 13,
+      "y": 14,
+      "altitude": 46,
+      "kind": "water_medium"
+    },
+    {
+      "x": 13,
+      "y": 15,
+      "altitude": 42,
+      "kind": "water_medium"
+    },
+    {
+      "x": 13,
+      "y": 16,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 13,
+      "y": 17,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 13,
+      "y": 18,
+      "altitude": 45,
+      "kind": "water_medium"
+    },
+    {
+      "x": 13,
+      "y": 19,
+      "altitude": 47,
+      "kind": "water_medium"
+    },
+    {
+      "x": 13,
+      "y": 20,
+      "altitude": 54,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 13,
+      "y": 21,
+      "altitude": 45,
+      "kind": "water_medium"
+    },
+    {
+      "x": 13,
+      "y": 22,
+      "altitude": 41,
+      "kind": "water_medium"
+    },
+    {
+      "x": 13,
+      "y": 23,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 13,
+      "y": 24,
+      "altitude": 51,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 13,
+      "y": 25,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 13,
+      "y": 26,
+      "altitude": 51,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 13,
+      "y": 27,
+      "altitude": 54,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 13,
+      "y": 28,
+      "altitude": 55,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 13,
+      "y": 29,
+      "altitude": 52,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 14,
+      "y": 0,
+      "altitude": 47,
+      "kind": "water_medium"
+    },
+    {
+      "x": 14,
+      "y": 1,
+      "altitude": 53,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 14,
+      "y": 2,
+      "altitude": 53,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 14,
+      "y": 3,
+      "altitude": 53,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 14,
+      "y": 4,
+      "altitude": 58,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 14,
+      "y": 5,
+      "altitude": 55,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 14,
+      "y": 6,
+      "altitude": 47,
+      "kind": "water_medium"
+    },
+    {
+      "x": 14,
+      "y": 7,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 14,
+      "y": 8,
+      "altitude": 45,
+      "kind": "water_medium"
+    },
+    {
+      "x": 14,
+      "y": 9,
+      "altitude": 43,
+      "kind": "water_medium"
+    },
+    {
+      "x": 14,
+      "y": 10,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 14,
+      "y": 11,
+      "altitude": 52,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 14,
+      "y": 12,
+      "altitude": 53,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 14,
+      "y": 13,
+      "altitude": 50,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 14,
+      "y": 14,
+      "altitude": 50,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 14,
+      "y": 15,
+      "altitude": 44,
+      "kind": "water_medium"
+    },
+    {
+      "x": 14,
+      "y": 16,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 14,
+      "y": 17,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 14,
+      "y": 18,
+      "altitude": 48,
+      "kind": "water_medium"
+    },
+    {
+      "x": 14,
+      "y": 19,
+      "altitude": 50,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 14,
+      "y": 20,
+      "altitude": 54,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 14,
+      "y": 21,
+      "altitude": 47,
+      "kind": "water_medium"
+    },
+    {
+      "x": 14,
+      "y": 22,
+      "altitude": 45,
+      "kind": "water_medium"
+    },
+    {
+      "x": 14,
+      "y": 23,
+      "altitude": 50,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 14,
+      "y": 24,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 14,
+      "y": 25,
+      "altitude": 48,
+      "kind": "water_medium"
+    },
+    {
+      "x": 14,
+      "y": 26,
+      "altitude": 48,
+      "kind": "water_medium"
+    },
+    {
+      "x": 14,
+      "y": 27,
+      "altitude": 46,
+      "kind": "water_medium"
+    },
+    {
+      "x": 14,
+      "y": 28,
+      "altitude": 50,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 14,
+      "y": 29,
+      "altitude": 47,
+      "kind": "water_medium"
+    },
+    {
+      "x": 15,
+      "y": 0,
+      "altitude": 50,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 15,
+      "y": 1,
+      "altitude": 50,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 15,
+      "y": 2,
+      "altitude": 53,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 15,
+      "y": 3,
+      "altitude": 55,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 15,
+      "y": 4,
+      "altitude": 59,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 15,
+      "y": 5,
+      "altitude": 59,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 15,
+      "y": 6,
+      "altitude": 53,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 15,
+      "y": 7,
+      "altitude": 53,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 15,
+      "y": 8,
+      "altitude": 47,
+      "kind": "water_medium"
+    },
+    {
+      "x": 15,
+      "y": 9,
+      "altitude": 44,
+      "kind": "water_medium"
+    },
+    {
+      "x": 15,
+      "y": 10,
+      "altitude": 44,
+      "kind": "water_medium"
+    },
+    {
+      "x": 15,
+      "y": 11,
+      "altitude": 44,
+      "kind": "water_medium"
+    },
+    {
+      "x": 15,
+      "y": 12,
+      "altitude": 45,
+      "kind": "water_medium"
+    },
+    {
+      "x": 15,
+      "y": 13,
+      "altitude": 46,
+      "kind": "water_medium"
+    },
+    {
+      "x": 15,
+      "y": 14,
+      "altitude": 43,
+      "kind": "water_medium"
+    },
+    {
+      "x": 15,
+      "y": 15,
+      "altitude": 39,
+      "kind": "water_deep"
+    },
+    {
+      "x": 15,
+      "y": 16,
+      "altitude": 47,
+      "kind": "water_medium"
+    },
+    {
+      "x": 15,
+      "y": 17,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 15,
+      "y": 18,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 15,
+      "y": 19,
+      "altitude": 55,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 15,
+      "y": 20,
+      "altitude": 62,
+      "kind": "land_highland"
+    },
+    {
+      "x": 15,
+      "y": 21,
+      "altitude": 57,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 15,
+      "y": 22,
+      "altitude": 55,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 15,
+      "y": 23,
+      "altitude": 59,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 15,
+      "y": 24,
+      "altitude": 57,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 15,
+      "y": 25,
+      "altitude": 53,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 15,
+      "y": 26,
+      "altitude": 55,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 15,
+      "y": 27,
+      "altitude": 52,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 15,
+      "y": 28,
+      "altitude": 52,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 15,
+      "y": 29,
+      "altitude": 48,
+      "kind": "water_medium"
+    },
+    {
+      "x": 16,
+      "y": 0,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 16,
+      "y": 1,
+      "altitude": 46,
+      "kind": "water_medium"
+    },
+    {
+      "x": 16,
+      "y": 2,
+      "altitude": 48,
+      "kind": "water_medium"
+    },
+    {
+      "x": 16,
+      "y": 3,
+      "altitude": 50,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 16,
+      "y": 4,
+      "altitude": 55,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 16,
+      "y": 5,
+      "altitude": 53,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 16,
+      "y": 6,
+      "altitude": 53,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 16,
+      "y": 7,
+      "altitude": 50,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 16,
+      "y": 8,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 16,
+      "y": 9,
+      "altitude": 44,
+      "kind": "water_medium"
+    },
+    {
+      "x": 16,
+      "y": 10,
+      "altitude": 47,
+      "kind": "water_medium"
+    },
+    {
+      "x": 16,
+      "y": 11,
+      "altitude": 47,
+      "kind": "water_medium"
+    },
+    {
+      "x": 16,
+      "y": 12,
+      "altitude": 51,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 16,
+      "y": 13,
+      "altitude": 53,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 16,
+      "y": 14,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 16,
+      "y": 15,
+      "altitude": 47,
+      "kind": "water_medium"
+    },
+    {
+      "x": 16,
+      "y": 16,
+      "altitude": 51,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 16,
+      "y": 17,
+      "altitude": 48,
+      "kind": "water_medium"
+    },
+    {
+      "x": 16,
+      "y": 18,
+      "altitude": 45,
+      "kind": "water_medium"
+    },
+    {
+      "x": 16,
+      "y": 19,
+      "altitude": 56,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 16,
+      "y": 20,
+      "altitude": 57,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 16,
+      "y": 21,
+      "altitude": 55,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 16,
+      "y": 22,
+      "altitude": 54,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 16,
+      "y": 23,
+      "altitude": 62,
+      "kind": "land_highland"
+    },
+    {
+      "x": 16,
+      "y": 24,
+      "altitude": 58,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 16,
+      "y": 25,
+      "altitude": 57,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 16,
+      "y": 26,
+      "altitude": 57,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 16,
+      "y": 27,
+      "altitude": 57,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 16,
+      "y": 28,
+      "altitude": 52,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 16,
+      "y": 29,
+      "altitude": 48,
+      "kind": "water_medium"
+    },
+    {
+      "x": 17,
+      "y": 0,
+      "altitude": 44,
+      "kind": "water_medium"
+    },
+    {
+      "x": 17,
+      "y": 1,
+      "altitude": 40,
+      "kind": "water_deep"
+    },
+    {
+      "x": 17,
+      "y": 2,
+      "altitude": 44,
+      "kind": "water_medium"
+    },
+    {
+      "x": 17,
+      "y": 3,
+      "altitude": 45,
+      "kind": "water_medium"
+    },
+    {
+      "x": 17,
+      "y": 4,
+      "altitude": 55,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 17,
+      "y": 5,
+      "altitude": 53,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 17,
+      "y": 6,
+      "altitude": 55,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 17,
+      "y": 7,
+      "altitude": 52,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 17,
+      "y": 8,
+      "altitude": 52,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 17,
+      "y": 9,
+      "altitude": 41,
+      "kind": "water_medium"
+    },
+    {
+      "x": 17,
+      "y": 10,
+      "altitude": 42,
+      "kind": "water_medium"
+    },
+    {
+      "x": 17,
+      "y": 11,
+      "altitude": 40,
+      "kind": "water_deep"
+    },
+    {
+      "x": 17,
+      "y": 12,
+      "altitude": 44,
+      "kind": "water_medium"
+    },
+    {
+      "x": 17,
+      "y": 13,
+      "altitude": 47,
+      "kind": "water_medium"
+    },
+    {
+      "x": 17,
+      "y": 14,
+      "altitude": 47,
+      "kind": "water_medium"
+    },
+    {
+      "x": 17,
+      "y": 15,
+      "altitude": 45,
+      "kind": "water_medium"
+    },
+    {
+      "x": 17,
+      "y": 16,
+      "altitude": 50,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 17,
+      "y": 17,
+      "altitude": 48,
+      "kind": "water_medium"
+    },
+    {
+      "x": 17,
+      "y": 18,
+      "altitude": 45,
+      "kind": "water_medium"
+    },
+    {
+      "x": 17,
+      "y": 19,
+      "altitude": 55,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 17,
+      "y": 20,
+      "altitude": 58,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 17,
+      "y": 21,
+      "altitude": 57,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 17,
+      "y": 22,
+      "altitude": 53,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 17,
+      "y": 23,
+      "altitude": 59,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 17,
+      "y": 24,
+      "altitude": 57,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 17,
+      "y": 25,
+      "altitude": 59,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 17,
+      "y": 26,
+      "altitude": 60,
+      "kind": "land_highland"
+    },
+    {
+      "x": 17,
+      "y": 27,
+      "altitude": 61,
+      "kind": "land_highland"
+    },
+    {
+      "x": 17,
+      "y": 28,
+      "altitude": 53,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 17,
+      "y": 29,
+      "altitude": 47,
+      "kind": "water_medium"
+    },
+    {
+      "x": 18,
+      "y": 0,
+      "altitude": 40,
+      "kind": "water_deep"
+    },
+    {
+      "x": 18,
+      "y": 1,
+      "altitude": 39,
+      "kind": "water_deep"
+    },
+    {
+      "x": 18,
+      "y": 2,
+      "altitude": 47,
+      "kind": "water_medium"
+    },
+    {
+      "x": 18,
+      "y": 3,
+      "altitude": 45,
+      "kind": "water_medium"
+    },
+    {
+      "x": 18,
+      "y": 4,
+      "altitude": 52,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 18,
+      "y": 5,
+      "altitude": 52,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 18,
+      "y": 6,
+      "altitude": 53,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 18,
+      "y": 7,
+      "altitude": 44,
+      "kind": "water_medium"
+    },
+    {
+      "x": 18,
+      "y": 8,
+      "altitude": 50,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 18,
+      "y": 9,
+      "altitude": 42,
+      "kind": "water_medium"
+    },
+    {
+      "x": 18,
+      "y": 10,
+      "altitude": 42,
+      "kind": "water_medium"
+    },
+    {
+      "x": 18,
+      "y": 11,
+      "altitude": 40,
+      "kind": "water_deep"
+    },
+    {
+      "x": 18,
+      "y": 12,
+      "altitude": 51,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 18,
+      "y": 13,
+      "altitude": 52,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 18,
+      "y": 14,
+      "altitude": 52,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 18,
+      "y": 15,
+      "altitude": 53,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 18,
+      "y": 16,
+      "altitude": 54,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 18,
+      "y": 17,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 18,
+      "y": 18,
+      "altitude": 47,
+      "kind": "water_medium"
+    },
+    {
+      "x": 18,
+      "y": 19,
+      "altitude": 56,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 18,
+      "y": 20,
+      "altitude": 57,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 18,
+      "y": 21,
+      "altitude": 60,
+      "kind": "land_highland"
+    },
+    {
+      "x": 18,
+      "y": 22,
+      "altitude": 56,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 18,
+      "y": 23,
+      "altitude": 61,
+      "kind": "land_highland"
+    },
+    {
+      "x": 18,
+      "y": 24,
+      "altitude": 58,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 18,
+      "y": 25,
+      "altitude": 60,
+      "kind": "land_highland"
+    },
+    {
+      "x": 18,
+      "y": 26,
+      "altitude": 57,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 18,
+      "y": 27,
+      "altitude": 56,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 18,
+      "y": 28,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 18,
+      "y": 29,
+      "altitude": 45,
+      "kind": "water_medium"
+    },
+    {
+      "x": 19,
+      "y": 0,
+      "altitude": 46,
+      "kind": "water_medium"
+    },
+    {
+      "x": 19,
+      "y": 1,
+      "altitude": 43,
+      "kind": "water_medium"
+    },
+    {
+      "x": 19,
+      "y": 2,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 19,
+      "y": 3,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 19,
+      "y": 4,
+      "altitude": 56,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 19,
+      "y": 5,
+      "altitude": 56,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 19,
+      "y": 6,
+      "altitude": 59,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 19,
+      "y": 7,
+      "altitude": 52,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 19,
+      "y": 8,
+      "altitude": 54,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 19,
+      "y": 9,
+      "altitude": 47,
+      "kind": "water_medium"
+    },
+    {
+      "x": 19,
+      "y": 10,
+      "altitude": 45,
+      "kind": "water_medium"
+    },
+    {
+      "x": 19,
+      "y": 11,
+      "altitude": 40,
+      "kind": "water_deep"
+    },
+    {
+      "x": 19,
+      "y": 12,
+      "altitude": 50,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 19,
+      "y": 13,
+      "altitude": 52,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 19,
+      "y": 14,
+      "altitude": 50,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 19,
+      "y": 15,
+      "altitude": 51,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 19,
+      "y": 16,
+      "altitude": 52,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 19,
+      "y": 17,
+      "altitude": 45,
+      "kind": "water_medium"
+    },
+    {
+      "x": 19,
+      "y": 18,
+      "altitude": 42,
+      "kind": "water_medium"
+    },
+    {
+      "x": 19,
+      "y": 19,
+      "altitude": 51,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 19,
+      "y": 20,
+      "altitude": 55,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 19,
+      "y": 21,
+      "altitude": 58,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 19,
+      "y": 22,
+      "altitude": 56,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 19,
+      "y": 23,
+      "altitude": 64,
+      "kind": "land_mountain"
+    },
+    {
+      "x": 19,
+      "y": 24,
+      "altitude": 60,
+      "kind": "land_highland"
+    },
+    {
+      "x": 19,
+      "y": 25,
+      "altitude": 60,
+      "kind": "land_highland"
+    },
+    {
+      "x": 19,
+      "y": 26,
+      "altitude": 60,
+      "kind": "land_highland"
+    },
+    {
+      "x": 19,
+      "y": 27,
+      "altitude": 60,
+      "kind": "land_highland"
+    },
+    {
+      "x": 19,
+      "y": 28,
+      "altitude": 51,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 19,
+      "y": 29,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 20,
+      "y": 0,
+      "altitude": 43,
+      "kind": "water_medium"
+    },
+    {
+      "x": 20,
+      "y": 1,
+      "altitude": 43,
+      "kind": "water_medium"
+    },
+    {
+      "x": 20,
+      "y": 2,
+      "altitude": 45,
+      "kind": "water_medium"
+    },
+    {
+      "x": 20,
+      "y": 3,
+      "altitude": 44,
+      "kind": "water_medium"
+    },
+    {
+      "x": 20,
+      "y": 4,
+      "altitude": 50,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 20,
+      "y": 5,
+      "altitude": 50,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 20,
+      "y": 6,
+      "altitude": 52,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 20,
+      "y": 7,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 20,
+      "y": 8,
+      "altitude": 54,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 20,
+      "y": 9,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 20,
+      "y": 10,
+      "altitude": 52,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 20,
+      "y": 11,
+      "altitude": 46,
+      "kind": "water_medium"
+    },
+    {
+      "x": 20,
+      "y": 12,
+      "altitude": 53,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 20,
+      "y": 13,
+      "altitude": 51,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 20,
+      "y": 14,
+      "altitude": 50,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 20,
+      "y": 15,
+      "altitude": 50,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 20,
+      "y": 16,
+      "altitude": 51,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 20,
+      "y": 17,
+      "altitude": 45,
+      "kind": "water_medium"
+    },
+    {
+      "x": 20,
+      "y": 18,
+      "altitude": 43,
+      "kind": "water_medium"
+    },
+    {
+      "x": 20,
+      "y": 19,
+      "altitude": 52,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 20,
+      "y": 20,
+      "altitude": 54,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 20,
+      "y": 21,
+      "altitude": 58,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 20,
+      "y": 22,
+      "altitude": 56,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 20,
+      "y": 23,
+      "altitude": 64,
+      "kind": "land_mountain"
+    },
+    {
+      "x": 20,
+      "y": 24,
+      "altitude": 59,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 20,
+      "y": 25,
+      "altitude": 59,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 20,
+      "y": 26,
+      "altitude": 58,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 20,
+      "y": 27,
+      "altitude": 60,
+      "kind": "land_highland"
+    },
+    {
+      "x": 20,
+      "y": 28,
+      "altitude": 51,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 20,
+      "y": 29,
+      "altitude": 48,
+      "kind": "water_medium"
+    },
+    {
+      "x": 21,
+      "y": 0,
+      "altitude": 44,
+      "kind": "water_medium"
+    },
+    {
+      "x": 21,
+      "y": 1,
+      "altitude": 45,
+      "kind": "water_medium"
+    },
+    {
+      "x": 21,
+      "y": 2,
+      "altitude": 48,
+      "kind": "water_medium"
+    },
+    {
+      "x": 21,
+      "y": 3,
+      "altitude": 47,
+      "kind": "water_medium"
+    },
+    {
+      "x": 21,
+      "y": 4,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 21,
+      "y": 5,
+      "altitude": 51,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 21,
+      "y": 6,
+      "altitude": 51,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 21,
+      "y": 7,
+      "altitude": 48,
+      "kind": "water_medium"
+    },
+    {
+      "x": 21,
+      "y": 8,
+      "altitude": 48,
+      "kind": "water_medium"
+    },
+    {
+      "x": 21,
+      "y": 9,
+      "altitude": 46,
+      "kind": "water_medium"
+    },
+    {
+      "x": 21,
+      "y": 10,
+      "altitude": 50,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 21,
+      "y": 11,
+      "altitude": 45,
+      "kind": "water_medium"
+    },
+    {
+      "x": 21,
+      "y": 12,
+      "altitude": 50,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 21,
+      "y": 13,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 21,
+      "y": 14,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 21,
+      "y": 15,
+      "altitude": 46,
+      "kind": "water_medium"
+    },
+    {
+      "x": 21,
+      "y": 16,
+      "altitude": 49,
+      "kind": "water_medium"
+    },
+    {
+      "x": 21,
+      "y": 17,
+      "altitude": 45,
+      "kind": "water_medium"
+    },
+    {
+      "x": 21,
+      "y": 18,
+      "altitude": 48,
+      "kind": "water_medium"
+    },
+    {
+      "x": 21,
+      "y": 19,
+      "altitude": 53,
+      "kind": "water_shallow"
+    },
+    {
+      "x": 21,
+      "y": 20,
+      "altitude": 58,
+      "kind": "land_grassland"
+    },
+    {
+      "x": 21,
+      "y": 21,
+      "altitude": 62,
+      "kind": "land_highland"
+    },
+    {
+      "x": 21,
+      "y": 22,
+      "altitude": 62,
+      "kind": "land_highland"
+    },
+    {
+      "x": 21,
+      "y": 23,
+      "altitude": 67,
       "kind": "land_peak"
     },
     {
-      "x": 3,
-      "y": 15,
-      "altitude": 44,
-      "kind": "water_medium"
-    },
-    {
-      "x": 3,
-      "y": 16,
-      "altitude": 61,
-      "kind": "land_highland"
-    },
-    {
-      "x": 3,
-      "y": 17,
-      "altitude": 42,
-      "kind": "water_medium"
-    },
-    {
-      "x": 3,
-      "y": 18,
-      "altitude": 56,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 3,
-      "y": 19,
-      "altitude": 51,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 3,
-      "y": 20,
-      "altitude": 45,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 3,
-      "y": 21,
-      "altitude": 52,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 3,
-      "y": 22,
-      "altitude": 58,
-      "kind": "land_highland"
-    },
-    {
-      "x": 3,
-      "y": 23,
-      "altitude": 56,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 3,
+      "x": 21,
       "y": 24,
-      "altitude": 41,
-      "kind": "water_medium"
-    },
-    {
-      "x": 3,
-      "y": 25,
-      "altitude": 38,
-      "kind": "water_medium"
-    },
-    {
-      "x": 3,
-      "y": 26,
-      "altitude": 37,
-      "kind": "water_medium"
-    },
-    {
-      "x": 3,
-      "y": 27,
-      "altitude": 45,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 3,
-      "y": 28,
-      "altitude": 46,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 3,
-      "y": 29,
-      "altitude": 28,
-      "kind": "water_deep"
-    },
-    {
-      "x": 4,
-      "y": 0,
-      "altitude": 41,
-      "kind": "water_medium"
-    },
-    {
-      "x": 4,
-      "y": 1,
-      "altitude": 48,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 4,
-      "y": 2,
-      "altitude": 47,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 4,
-      "y": 3,
-      "altitude": 49,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 4,
-      "y": 4,
-      "altitude": 51,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 4,
-      "y": 5,
-      "altitude": 53,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 4,
-      "y": 6,
-      "altitude": 52,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 4,
-      "y": 7,
-      "altitude": 54,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 4,
-      "y": 8,
-      "altitude": 55,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 4,
-      "y": 9,
-      "altitude": 54,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 4,
-      "y": 10,
-      "altitude": 54,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 4,
-      "y": 11,
-      "altitude": 55,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 4,
-      "y": 12,
-      "altitude": 47,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 4,
-      "y": 13,
       "altitude": 64,
       "kind": "land_mountain"
     },
     {
-      "x": 4,
-      "y": 14,
-      "altitude": 45,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 4,
-      "y": 15,
-      "altitude": 63,
-      "kind": "land_mountain"
-    },
-    {
-      "x": 4,
-      "y": 16,
-      "altitude": 43,
-      "kind": "water_medium"
-    },
-    {
-      "x": 4,
-      "y": 17,
-      "altitude": 60,
-      "kind": "land_highland"
-    },
-    {
-      "x": 4,
-      "y": 18,
-      "altitude": 43,
-      "kind": "water_medium"
-    },
-    {
-      "x": 4,
-      "y": 19,
-      "altitude": 46,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 4,
-      "y": 20,
-      "altitude": 49,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 4,
-      "y": 21,
-      "altitude": 53,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 4,
-      "y": 22,
-      "altitude": 55,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 4,
-      "y": 23,
-      "altitude": 40,
-      "kind": "water_medium"
-    },
-    {
-      "x": 4,
-      "y": 24,
-      "altitude": 38,
-      "kind": "water_medium"
-    },
-    {
-      "x": 4,
-      "y": 25,
-      "altitude": 33,
-      "kind": "water_medium"
-    },
-    {
-      "x": 4,
-      "y": 26,
-      "altitude": 44,
-      "kind": "water_medium"
-    },
-    {
-      "x": 4,
-      "y": 27,
-      "altitude": 43,
-      "kind": "water_medium"
-    },
-    {
-      "x": 4,
-      "y": 28,
-      "altitude": 24,
-      "kind": "water_deep"
-    },
-    {
-      "x": 4,
-      "y": 29,
-      "altitude": 29,
-      "kind": "water_deep"
-    },
-    {
-      "x": 5,
-      "y": 0,
-      "altitude": 30,
-      "kind": "water_medium"
-    },
-    {
-      "x": 5,
-      "y": 1,
-      "altitude": 36,
-      "kind": "water_medium"
-    },
-    {
-      "x": 5,
-      "y": 2,
-      "altitude": 48,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 5,
-      "y": 3,
-      "altitude": 50,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 5,
-      "y": 4,
-      "altitude": 52,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 5,
-      "y": 5,
-      "altitude": 54,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 5,
-      "y": 6,
-      "altitude": 54,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 5,
-      "y": 7,
-      "altitude": 56,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 5,
-      "y": 8,
-      "altitude": 57,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 5,
-      "y": 9,
-      "altitude": 58,
-      "kind": "land_highland"
-    },
-    {
-      "x": 5,
-      "y": 10,
-      "altitude": 57,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 5,
-      "y": 11,
-      "altitude": 59,
-      "kind": "land_highland"
-    },
-    {
-      "x": 5,
-      "y": 12,
-      "altitude": 62,
-      "kind": "land_mountain"
-    },
-    {
-      "x": 5,
-      "y": 13,
-      "altitude": 46,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 5,
-      "y": 14,
-      "altitude": 62,
-      "kind": "land_mountain"
-    },
-    {
-      "x": 5,
-      "y": 15,
-      "altitude": 61,
-      "kind": "land_highland"
-    },
-    {
-      "x": 5,
-      "y": 16,
-      "altitude": 58,
-      "kind": "land_highland"
-    },
-    {
-      "x": 5,
-      "y": 17,
-      "altitude": 48,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 5,
-      "y": 18,
-      "altitude": 47,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 5,
-      "y": 19,
-      "altitude": 44,
-      "kind": "water_medium"
-    },
-    {
-      "x": 5,
-      "y": 20,
-      "altitude": 45,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 5,
-      "y": 21,
-      "altitude": 54,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 5,
-      "y": 22,
-      "altitude": 46,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 5,
-      "y": 23,
-      "altitude": 41,
-      "kind": "water_medium"
-    },
-    {
-      "x": 5,
-      "y": 24,
-      "altitude": 34,
-      "kind": "water_medium"
-    },
-    {
-      "x": 5,
-      "y": 25,
-      "altitude": 32,
-      "kind": "water_medium"
-    },
-    {
-      "x": 5,
-      "y": 26,
-      "altitude": 35,
-      "kind": "water_medium"
-    },
-    {
-      "x": 5,
-      "y": 27,
-      "altitude": 26,
-      "kind": "water_deep"
-    },
-    {
-      "x": 5,
-      "y": 28,
-      "altitude": 23,
-      "kind": "water_deep"
-    },
-    {
-      "x": 5,
-      "y": 29,
-      "altitude": 23,
-      "kind": "water_deep"
-    },
-    {
-      "x": 6,
-      "y": 0,
-      "altitude": 31,
-      "kind": "water_medium"
-    },
-    {
-      "x": 6,
-      "y": 1,
-      "altitude": 43,
-      "kind": "water_medium"
-    },
-    {
-      "x": 6,
-      "y": 2,
-      "altitude": 39,
-      "kind": "water_medium"
-    },
-    {
-      "x": 6,
-      "y": 3,
-      "altitude": 41,
-      "kind": "water_medium"
-    },
-    {
-      "x": 6,
-      "y": 4,
-      "altitude": 55,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 6,
-      "y": 5,
-      "altitude": 43,
-      "kind": "water_medium"
-    },
-    {
-      "x": 6,
-      "y": 6,
-      "altitude": 54,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 6,
-      "y": 7,
-      "altitude": 55,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 6,
-      "y": 8,
-      "altitude": 56,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 6,
-      "y": 9,
-      "altitude": 56,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 6,
-      "y": 10,
-      "altitude": 58,
-      "kind": "land_highland"
-    },
-    {
-      "x": 6,
-      "y": 11,
-      "altitude": 61,
-      "kind": "land_highland"
-    },
-    {
-      "x": 6,
-      "y": 12,
-      "altitude": 65,
-      "kind": "land_mountain"
-    },
-    {
-      "x": 6,
-      "y": 13,
-      "altitude": 65,
-      "kind": "land_mountain"
-    },
-    {
-      "x": 6,
-      "y": 14,
-      "altitude": 59,
-      "kind": "land_highland"
-    },
-    {
-      "x": 6,
-      "y": 15,
-      "altitude": 56,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 6,
-      "y": 16,
-      "altitude": 38,
-      "kind": "water_medium"
-    },
-    {
-      "x": 6,
-      "y": 17,
-      "altitude": 37,
-      "kind": "water_medium"
-    },
-    {
-      "x": 6,
-      "y": 18,
-      "altitude": 49,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 6,
-      "y": 19,
-      "altitude": 52,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 6,
-      "y": 20,
-      "altitude": 49,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 6,
-      "y": 21,
-      "altitude": 47,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 6,
-      "y": 22,
-      "altitude": 48,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 6,
-      "y": 23,
-      "altitude": 50,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 6,
-      "y": 24,
-      "altitude": 35,
-      "kind": "water_medium"
-    },
-    {
-      "x": 6,
-      "y": 25,
-      "altitude": 34,
-      "kind": "water_medium"
-    },
-    {
-      "x": 6,
-      "y": 26,
-      "altitude": 33,
-      "kind": "water_medium"
-    },
-    {
-      "x": 6,
-      "y": 27,
-      "altitude": 34,
-      "kind": "water_medium"
-    },
-    {
-      "x": 6,
-      "y": 28,
-      "altitude": 28,
-      "kind": "water_deep"
-    },
-    {
-      "x": 6,
-      "y": 29,
-      "altitude": 26,
-      "kind": "water_deep"
-    },
-    {
-      "x": 7,
-      "y": 0,
-      "altitude": 28,
-      "kind": "water_deep"
-    },
-    {
-      "x": 7,
-      "y": 1,
-      "altitude": 32,
-      "kind": "water_medium"
-    },
-    {
-      "x": 7,
-      "y": 2,
-      "altitude": 40,
-      "kind": "water_medium"
-    },
-    {
-      "x": 7,
-      "y": 3,
-      "altitude": 38,
-      "kind": "water_medium"
-    },
-    {
-      "x": 7,
-      "y": 4,
-      "altitude": 49,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 7,
-      "y": 5,
-      "altitude": 49,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 7,
-      "y": 6,
-      "altitude": 50,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 7,
-      "y": 7,
-      "altitude": 51,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 7,
-      "y": 8,
-      "altitude": 52,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 7,
-      "y": 9,
-      "altitude": 52,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 7,
-      "y": 10,
-      "altitude": 52,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 7,
-      "y": 11,
-      "altitude": 58,
-      "kind": "land_highland"
-    },
-    {
-      "x": 7,
-      "y": 12,
-      "altitude": 60,
-      "kind": "land_highland"
-    },
-    {
-      "x": 7,
-      "y": 13,
-      "altitude": 61,
-      "kind": "land_highland"
-    },
-    {
-      "x": 7,
-      "y": 14,
-      "altitude": 56,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 7,
-      "y": 15,
-      "altitude": 55,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 7,
-      "y": 16,
-      "altitude": 55,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 7,
-      "y": 17,
-      "altitude": 54,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 7,
-      "y": 18,
-      "altitude": 51,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 7,
-      "y": 19,
-      "altitude": 33,
-      "kind": "water_medium"
-    },
-    {
-      "x": 7,
-      "y": 20,
-      "altitude": 51,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 7,
-      "y": 21,
-      "altitude": 46,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 7,
-      "y": 22,
-      "altitude": 47,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 7,
-      "y": 23,
-      "altitude": 48,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 7,
-      "y": 24,
-      "altitude": 49,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 7,
-      "y": 25,
-      "altitude": 28,
-      "kind": "water_deep"
-    },
-    {
-      "x": 7,
-      "y": 26,
-      "altitude": 32,
-      "kind": "water_medium"
-    },
-    {
-      "x": 7,
-      "y": 27,
-      "altitude": 32,
-      "kind": "water_medium"
-    },
-    {
-      "x": 7,
-      "y": 28,
-      "altitude": 27,
-      "kind": "water_deep"
-    },
-    {
-      "x": 7,
-      "y": 29,
-      "altitude": 25,
-      "kind": "water_deep"
-    },
-    {
-      "x": 8,
-      "y": 0,
-      "altitude": 46,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 8,
-      "y": 1,
-      "altitude": 48,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 8,
-      "y": 2,
-      "altitude": 33,
-      "kind": "water_medium"
-    },
-    {
-      "x": 8,
-      "y": 3,
-      "altitude": 50,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 8,
-      "y": 4,
-      "altitude": 49,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 8,
-      "y": 5,
-      "altitude": 48,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 8,
-      "y": 6,
-      "altitude": 49,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 8,
-      "y": 7,
-      "altitude": 48,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 8,
-      "y": 8,
-      "altitude": 48,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 8,
-      "y": 9,
-      "altitude": 46,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 8,
-      "y": 10,
-      "altitude": 48,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 8,
-      "y": 11,
-      "altitude": 53,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 8,
-      "y": 12,
-      "altitude": 58,
-      "kind": "land_highland"
-    },
-    {
-      "x": 8,
-      "y": 13,
-      "altitude": 57,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 8,
-      "y": 14,
-      "altitude": 44,
-      "kind": "water_medium"
-    },
-    {
-      "x": 8,
-      "y": 15,
-      "altitude": 54,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 8,
-      "y": 16,
-      "altitude": 55,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 8,
-      "y": 17,
-      "altitude": 55,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 8,
-      "y": 18,
-      "altitude": 50,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 8,
-      "y": 19,
-      "altitude": 32,
-      "kind": "water_medium"
-    },
-    {
-      "x": 8,
-      "y": 20,
-      "altitude": 47,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 8,
-      "y": 21,
-      "altitude": 46,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 8,
-      "y": 22,
-      "altitude": 46,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 8,
-      "y": 23,
-      "altitude": 43,
-      "kind": "water_medium"
-    },
-    {
-      "x": 8,
-      "y": 24,
-      "altitude": 33,
-      "kind": "water_medium"
-    },
-    {
-      "x": 8,
-      "y": 25,
-      "altitude": 27,
-      "kind": "water_deep"
-    },
-    {
-      "x": 8,
-      "y": 26,
-      "altitude": 21,
-      "kind": "water_deep"
-    },
-    {
-      "x": 8,
-      "y": 27,
-      "altitude": 30,
-      "kind": "water_medium"
-    },
-    {
-      "x": 8,
-      "y": 28,
-      "altitude": 31,
-      "kind": "water_medium"
-    },
-    {
-      "x": 8,
-      "y": 29,
-      "altitude": 23,
-      "kind": "water_deep"
-    },
-    {
-      "x": 9,
-      "y": 0,
-      "altitude": 32,
-      "kind": "water_medium"
-    },
-    {
-      "x": 9,
-      "y": 1,
-      "altitude": 50,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 9,
-      "y": 2,
-      "altitude": 35,
-      "kind": "water_medium"
-    },
-    {
-      "x": 9,
-      "y": 3,
-      "altitude": 51,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 9,
-      "y": 4,
-      "altitude": 50,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 9,
-      "y": 5,
-      "altitude": 48,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 9,
-      "y": 6,
-      "altitude": 48,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 9,
-      "y": 7,
-      "altitude": 47,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 9,
-      "y": 8,
-      "altitude": 47,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 9,
-      "y": 9,
-      "altitude": 46,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 9,
-      "y": 10,
-      "altitude": 46,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 9,
-      "y": 11,
-      "altitude": 49,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 9,
-      "y": 12,
-      "altitude": 52,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 9,
-      "y": 13,
-      "altitude": 56,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 9,
-      "y": 14,
-      "altitude": 56,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 9,
-      "y": 15,
-      "altitude": 45,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 9,
-      "y": 16,
-      "altitude": 56,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 9,
-      "y": 17,
-      "altitude": 36,
-      "kind": "water_medium"
-    },
-    {
-      "x": 9,
-      "y": 18,
-      "altitude": 49,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 9,
-      "y": 19,
-      "altitude": 31,
-      "kind": "water_medium"
-    },
-    {
-      "x": 9,
-      "y": 20,
-      "altitude": 49,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 9,
-      "y": 21,
-      "altitude": 47,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 9,
-      "y": 22,
-      "altitude": 44,
-      "kind": "water_medium"
-    },
-    {
-      "x": 9,
-      "y": 23,
-      "altitude": 44,
-      "kind": "water_medium"
-    },
-    {
-      "x": 9,
-      "y": 24,
-      "altitude": 34,
-      "kind": "water_medium"
-    },
-    {
-      "x": 9,
-      "y": 25,
-      "altitude": 39,
-      "kind": "water_medium"
-    },
-    {
-      "x": 9,
-      "y": 26,
-      "altitude": 29,
-      "kind": "water_deep"
-    },
-    {
-      "x": 9,
-      "y": 27,
-      "altitude": 23,
-      "kind": "water_deep"
-    },
-    {
-      "x": 9,
-      "y": 28,
-      "altitude": 21,
-      "kind": "water_deep"
-    },
-    {
-      "x": 9,
-      "y": 29,
-      "altitude": 46,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 10,
-      "y": 0,
-      "altitude": 31,
-      "kind": "water_medium"
-    },
-    {
-      "x": 10,
-      "y": 1,
-      "altitude": 33,
-      "kind": "water_medium"
-    },
-    {
-      "x": 10,
-      "y": 2,
-      "altitude": 36,
-      "kind": "water_medium"
-    },
-    {
-      "x": 10,
-      "y": 3,
-      "altitude": 46,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 10,
-      "y": 4,
-      "altitude": 51,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 10,
-      "y": 5,
-      "altitude": 49,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 10,
-      "y": 6,
-      "altitude": 49,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 10,
-      "y": 7,
-      "altitude": 48,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 10,
-      "y": 8,
-      "altitude": 48,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 10,
-      "y": 9,
-      "altitude": 48,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 10,
-      "y": 10,
-      "altitude": 47,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 10,
-      "y": 11,
-      "altitude": 48,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 10,
-      "y": 12,
-      "altitude": 50,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 10,
-      "y": 13,
-      "altitude": 54,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 10,
-      "y": 14,
-      "altitude": 58,
-      "kind": "land_highland"
-    },
-    {
-      "x": 10,
-      "y": 15,
-      "altitude": 46,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 10,
-      "y": 16,
-      "altitude": 35,
-      "kind": "water_medium"
-    },
-    {
-      "x": 10,
-      "y": 17,
-      "altitude": 37,
-      "kind": "water_medium"
-    },
-    {
-      "x": 10,
-      "y": 18,
-      "altitude": 30,
-      "kind": "water_medium"
-    },
-    {
-      "x": 10,
-      "y": 19,
-      "altitude": 54,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 10,
-      "y": 20,
-      "altitude": 47,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 10,
-      "y": 21,
-      "altitude": 46,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 10,
-      "y": 22,
-      "altitude": 45,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 10,
-      "y": 23,
-      "altitude": 37,
-      "kind": "water_medium"
-    },
-    {
-      "x": 10,
-      "y": 24,
-      "altitude": 42,
-      "kind": "water_medium"
-    },
-    {
-      "x": 10,
-      "y": 25,
-      "altitude": 30,
-      "kind": "water_medium"
-    },
-    {
-      "x": 10,
-      "y": 26,
-      "altitude": 40,
-      "kind": "water_medium"
-    },
-    {
-      "x": 10,
-      "y": 27,
-      "altitude": 27,
-      "kind": "water_deep"
-    },
-    {
-      "x": 10,
-      "y": 28,
-      "altitude": 47,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 10,
-      "y": 29,
-      "altitude": 48,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 11,
-      "y": 0,
-      "altitude": 30,
-      "kind": "water_medium"
-    },
-    {
-      "x": 11,
-      "y": 1,
-      "altitude": 52,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 11,
-      "y": 2,
-      "altitude": 43,
-      "kind": "water_medium"
-    },
-    {
-      "x": 11,
-      "y": 3,
-      "altitude": 38,
-      "kind": "water_medium"
-    },
-    {
-      "x": 11,
-      "y": 4,
-      "altitude": 51,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 11,
-      "y": 5,
-      "altitude": 33,
-      "kind": "water_medium"
-    },
-    {
-      "x": 11,
-      "y": 6,
-      "altitude": 50,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 11,
-      "y": 7,
-      "altitude": 50,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 11,
-      "y": 8,
-      "altitude": 50,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 11,
-      "y": 9,
-      "altitude": 49,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 11,
-      "y": 10,
-      "altitude": 49,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 11,
-      "y": 11,
-      "altitude": 48,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 11,
-      "y": 12,
-      "altitude": 47,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 11,
-      "y": 13,
-      "altitude": 51,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 11,
-      "y": 14,
-      "altitude": 56,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 11,
-      "y": 15,
-      "altitude": 58,
-      "kind": "land_highland"
-    },
-    {
-      "x": 11,
-      "y": 16,
-      "altitude": 40,
-      "kind": "water_medium"
-    },
-    {
-      "x": 11,
-      "y": 17,
-      "altitude": 38,
-      "kind": "water_medium"
-    },
-    {
-      "x": 11,
-      "y": 18,
-      "altitude": 29,
-      "kind": "water_deep"
-    },
-    {
-      "x": 11,
-      "y": 19,
-      "altitude": 54,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 11,
-      "y": 20,
-      "altitude": 50,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 11,
-      "y": 21,
-      "altitude": 46,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 11,
-      "y": 22,
-      "altitude": 42,
-      "kind": "water_medium"
-    },
-    {
-      "x": 11,
-      "y": 23,
-      "altitude": 40,
-      "kind": "water_medium"
-    },
-    {
-      "x": 11,
-      "y": 24,
-      "altitude": 36,
-      "kind": "water_medium"
-    },
-    {
-      "x": 11,
-      "y": 25,
-      "altitude": 37,
-      "kind": "water_medium"
-    },
-    {
-      "x": 11,
-      "y": 26,
-      "altitude": 35,
-      "kind": "water_medium"
-    },
-    {
-      "x": 11,
-      "y": 27,
-      "altitude": 47,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 11,
-      "y": 28,
-      "altitude": 49,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 11,
-      "y": 29,
-      "altitude": 50,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 12,
-      "y": 0,
-      "altitude": 29,
-      "kind": "water_deep"
-    },
-    {
-      "x": 12,
-      "y": 1,
-      "altitude": 51,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 12,
-      "y": 2,
-      "altitude": 51,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 12,
-      "y": 3,
-      "altitude": 40,
-      "kind": "water_medium"
-    },
-    {
-      "x": 12,
-      "y": 4,
-      "altitude": 34,
-      "kind": "water_medium"
-    },
-    {
-      "x": 12,
-      "y": 5,
-      "altitude": 32,
-      "kind": "water_medium"
-    },
-    {
-      "x": 12,
-      "y": 6,
-      "altitude": 51,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 12,
-      "y": 7,
-      "altitude": 52,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 12,
-      "y": 8,
-      "altitude": 52,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 12,
-      "y": 9,
-      "altitude": 50,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 12,
-      "y": 10,
-      "altitude": 49,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 12,
-      "y": 11,
-      "altitude": 47,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 12,
-      "y": 12,
-      "altitude": 46,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 12,
-      "y": 13,
-      "altitude": 47,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 12,
-      "y": 14,
-      "altitude": 27,
-      "kind": "water_deep"
-    },
-    {
-      "x": 12,
-      "y": 15,
-      "altitude": 53,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 12,
-      "y": 16,
-      "altitude": 32,
-      "kind": "water_medium"
-    },
-    {
-      "x": 12,
-      "y": 17,
-      "altitude": 39,
-      "kind": "water_medium"
-    },
-    {
-      "x": 12,
-      "y": 18,
-      "altitude": 28,
-      "kind": "water_deep"
-    },
-    {
-      "x": 12,
-      "y": 19,
-      "altitude": 52,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 12,
-      "y": 20,
-      "altitude": 48,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 12,
-      "y": 21,
-      "altitude": 44,
-      "kind": "water_medium"
-    },
-    {
-      "x": 12,
-      "y": 22,
-      "altitude": 40,
-      "kind": "water_medium"
-    },
-    {
-      "x": 12,
-      "y": 23,
-      "altitude": 39,
-      "kind": "water_medium"
-    },
-    {
-      "x": 12,
-      "y": 24,
-      "altitude": 40,
-      "kind": "water_medium"
-    },
-    {
-      "x": 12,
-      "y": 25,
-      "altitude": 36,
-      "kind": "water_medium"
-    },
-    {
-      "x": 12,
-      "y": 26,
-      "altitude": 33,
-      "kind": "water_medium"
-    },
-    {
-      "x": 12,
-      "y": 27,
-      "altitude": 32,
-      "kind": "water_medium"
-    },
-    {
-      "x": 12,
-      "y": 28,
-      "altitude": 50,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 12,
-      "y": 29,
-      "altitude": 50,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 13,
-      "y": 0,
-      "altitude": 30,
-      "kind": "water_medium"
-    },
-    {
-      "x": 13,
-      "y": 1,
-      "altitude": 49,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 13,
-      "y": 2,
-      "altitude": 37,
-      "kind": "water_medium"
-    },
-    {
-      "x": 13,
-      "y": 3,
-      "altitude": 38,
-      "kind": "water_medium"
-    },
-    {
-      "x": 13,
-      "y": 4,
-      "altitude": 40,
-      "kind": "water_medium"
-    },
-    {
-      "x": 13,
-      "y": 5,
-      "altitude": 38,
-      "kind": "water_medium"
-    },
-    {
-      "x": 13,
-      "y": 6,
-      "altitude": 31,
-      "kind": "water_medium"
-    },
-    {
-      "x": 13,
-      "y": 7,
-      "altitude": 52,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 13,
-      "y": 8,
-      "altitude": 53,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 13,
-      "y": 9,
-      "altitude": 34,
-      "kind": "water_medium"
-    },
-    {
-      "x": 13,
-      "y": 10,
-      "altitude": 52,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 13,
-      "y": 11,
-      "altitude": 48,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 13,
-      "y": 12,
-      "altitude": 46,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 13,
-      "y": 13,
-      "altitude": 26,
-      "kind": "water_deep"
-    },
-    {
-      "x": 13,
-      "y": 14,
-      "altitude": 28,
-      "kind": "water_deep"
-    },
-    {
-      "x": 13,
-      "y": 15,
-      "altitude": 20,
-      "kind": "water_deep"
-    },
-    {
-      "x": 13,
-      "y": 16,
-      "altitude": 25,
-      "kind": "water_deep"
-    },
-    {
-      "x": 13,
-      "y": 17,
-      "altitude": 27,
-      "kind": "water_deep"
-    },
-    {
-      "x": 13,
-      "y": 18,
-      "altitude": 53,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 13,
-      "y": 19,
-      "altitude": 41,
-      "kind": "water_medium"
-    },
-    {
-      "x": 13,
-      "y": 20,
-      "altitude": 47,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 13,
-      "y": 21,
-      "altitude": 43,
-      "kind": "water_medium"
-    },
-    {
-      "x": 13,
-      "y": 22,
-      "altitude": 39,
-      "kind": "water_medium"
-    },
-    {
-      "x": 13,
-      "y": 23,
-      "altitude": 39,
-      "kind": "water_medium"
-    },
-    {
-      "x": 13,
-      "y": 24,
-      "altitude": 41,
-      "kind": "water_medium"
-    },
-    {
-      "x": 13,
-      "y": 25,
-      "altitude": 45,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 13,
-      "y": 26,
-      "altitude": 48,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 13,
-      "y": 27,
-      "altitude": 50,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 13,
-      "y": 28,
-      "altitude": 31,
-      "kind": "water_medium"
-    },
-    {
-      "x": 13,
-      "y": 29,
-      "altitude": 28,
-      "kind": "water_deep"
-    },
-    {
-      "x": 14,
-      "y": 0,
-      "altitude": 34,
-      "kind": "water_medium"
-    },
-    {
-      "x": 14,
-      "y": 1,
-      "altitude": 31,
-      "kind": "water_medium"
-    },
-    {
-      "x": 14,
-      "y": 2,
-      "altitude": 41,
-      "kind": "water_medium"
-    },
-    {
-      "x": 14,
-      "y": 3,
-      "altitude": 40,
-      "kind": "water_medium"
-    },
-    {
-      "x": 14,
-      "y": 4,
-      "altitude": 39,
-      "kind": "water_medium"
-    },
-    {
-      "x": 14,
-      "y": 5,
-      "altitude": 51,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 14,
-      "y": 6,
-      "altitude": 30,
-      "kind": "water_medium"
-    },
-    {
-      "x": 14,
-      "y": 7,
-      "altitude": 54,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 14,
-      "y": 8,
-      "altitude": 56,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 14,
-      "y": 9,
-      "altitude": 55,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 14,
-      "y": 10,
-      "altitude": 26,
-      "kind": "water_deep"
-    },
-    {
-      "x": 14,
-      "y": 11,
-      "altitude": 27,
-      "kind": "water_deep"
-    },
-    {
-      "x": 14,
-      "y": 12,
-      "altitude": 47,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 14,
-      "y": 13,
-      "altitude": 25,
-      "kind": "water_deep"
-    },
-    {
-      "x": 14,
-      "y": 14,
-      "altitude": 22,
-      "kind": "water_deep"
-    },
-    {
-      "x": 14,
-      "y": 15,
-      "altitude": 24,
-      "kind": "water_deep"
-    },
-    {
-      "x": 14,
-      "y": 16,
-      "altitude": 22,
-      "kind": "water_deep"
-    },
-    {
-      "x": 14,
-      "y": 17,
-      "altitude": 23,
-      "kind": "water_deep"
-    },
-    {
-      "x": 14,
-      "y": 18,
-      "altitude": 53,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 14,
-      "y": 19,
-      "altitude": 42,
-      "kind": "water_medium"
-    },
-    {
-      "x": 14,
-      "y": 20,
-      "altitude": 40,
-      "kind": "water_medium"
-    },
-    {
-      "x": 14,
-      "y": 21,
-      "altitude": 38,
-      "kind": "water_medium"
-    },
-    {
-      "x": 14,
-      "y": 22,
-      "altitude": 41,
-      "kind": "water_medium"
-    },
-    {
-      "x": 14,
-      "y": 23,
-      "altitude": 40,
-      "kind": "water_medium"
-    },
-    {
-      "x": 14,
-      "y": 24,
-      "altitude": 42,
-      "kind": "water_medium"
-    },
-    {
-      "x": 14,
-      "y": 25,
-      "altitude": 45,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 14,
-      "y": 26,
-      "altitude": 47,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 14,
-      "y": 27,
-      "altitude": 30,
-      "kind": "water_medium"
-    },
-    {
-      "x": 14,
-      "y": 28,
-      "altitude": 29,
-      "kind": "water_deep"
-    },
-    {
-      "x": 14,
-      "y": 29,
-      "altitude": 27,
-      "kind": "water_deep"
-    },
-    {
-      "x": 15,
-      "y": 0,
-      "altitude": 38,
-      "kind": "water_medium"
-    },
-    {
-      "x": 15,
-      "y": 1,
-      "altitude": 42,
-      "kind": "water_medium"
-    },
-    {
-      "x": 15,
-      "y": 2,
-      "altitude": 32,
-      "kind": "water_medium"
-    },
-    {
-      "x": 15,
-      "y": 3,
-      "altitude": 43,
-      "kind": "water_medium"
-    },
-    {
-      "x": 15,
-      "y": 4,
-      "altitude": 48,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 15,
-      "y": 5,
-      "altitude": 50,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 15,
-      "y": 6,
-      "altitude": 43,
-      "kind": "water_medium"
-    },
-    {
-      "x": 15,
-      "y": 7,
-      "altitude": 29,
-      "kind": "water_deep"
-    },
-    {
-      "x": 15,
-      "y": 8,
-      "altitude": 40,
-      "kind": "water_medium"
-    },
-    {
-      "x": 15,
-      "y": 9,
-      "altitude": 30,
-      "kind": "water_medium"
-    },
-    {
-      "x": 15,
-      "y": 10,
-      "altitude": 21,
-      "kind": "water_deep"
-    },
-    {
-      "x": 15,
-      "y": 11,
-      "altitude": 25,
-      "kind": "water_deep"
-    },
-    {
-      "x": 15,
-      "y": 12,
-      "altitude": 28,
-      "kind": "water_deep"
-    },
-    {
-      "x": 15,
-      "y": 13,
-      "altitude": 24,
-      "kind": "water_deep"
-    },
-    {
-      "x": 15,
-      "y": 14,
-      "altitude": 37,
-      "kind": "water_medium"
-    },
-    {
-      "x": 15,
-      "y": 15,
-      "altitude": 28,
-      "kind": "water_deep"
-    },
-    {
-      "x": 15,
-      "y": 16,
-      "altitude": 23,
-      "kind": "water_deep"
-    },
-    {
-      "x": 15,
-      "y": 17,
-      "altitude": 24,
-      "kind": "water_deep"
-    },
-    {
-      "x": 15,
-      "y": 18,
-      "altitude": 43,
-      "kind": "water_medium"
-    },
-    {
-      "x": 15,
-      "y": 19,
-      "altitude": 52,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 15,
-      "y": 20,
-      "altitude": 37,
-      "kind": "water_medium"
-    },
-    {
-      "x": 15,
-      "y": 21,
-      "altitude": 39,
-      "kind": "water_medium"
-    },
-    {
-      "x": 15,
-      "y": 22,
-      "altitude": 43,
-      "kind": "water_medium"
-    },
-    {
-      "x": 15,
-      "y": 23,
-      "altitude": 28,
-      "kind": "water_deep"
-    },
-    {
-      "x": 15,
-      "y": 24,
-      "altitude": 43,
-      "kind": "water_medium"
-    },
-    {
-      "x": 15,
-      "y": 25,
-      "altitude": 45,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 15,
-      "y": 26,
-      "altitude": 46,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 15,
-      "y": 27,
-      "altitude": 21,
-      "kind": "water_deep"
-    },
-    {
-      "x": 15,
-      "y": 28,
-      "altitude": 24,
-      "kind": "water_deep"
-    },
-    {
-      "x": 15,
-      "y": 29,
-      "altitude": 28,
-      "kind": "water_deep"
-    },
-    {
-      "x": 16,
-      "y": 0,
-      "altitude": 41,
-      "kind": "water_medium"
-    },
-    {
-      "x": 16,
-      "y": 1,
-      "altitude": 36,
-      "kind": "water_medium"
-    },
-    {
-      "x": 16,
-      "y": 2,
-      "altitude": 43,
-      "kind": "water_medium"
-    },
-    {
-      "x": 16,
-      "y": 3,
-      "altitude": 48,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 16,
-      "y": 4,
-      "altitude": 45,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 16,
-      "y": 5,
-      "altitude": 48,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 16,
-      "y": 6,
-      "altitude": 28,
-      "kind": "water_deep"
-    },
-    {
-      "x": 16,
-      "y": 7,
-      "altitude": 55,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 16,
-      "y": 8,
-      "altitude": 41,
-      "kind": "water_medium"
-    },
-    {
-      "x": 16,
-      "y": 9,
-      "altitude": 58,
-      "kind": "land_highland"
-    },
-    {
-      "x": 16,
-      "y": 10,
-      "altitude": 31,
-      "kind": "water_medium"
-    },
-    {
-      "x": 16,
-      "y": 11,
-      "altitude": 24,
-      "kind": "water_deep"
-    },
-    {
-      "x": 16,
-      "y": 12,
-      "altitude": 27,
-      "kind": "water_deep"
-    },
-    {
-      "x": 16,
-      "y": 13,
-      "altitude": 42,
-      "kind": "water_medium"
-    },
-    {
-      "x": 16,
-      "y": 14,
-      "altitude": 31,
-      "kind": "water_medium"
-    },
-    {
-      "x": 16,
-      "y": 15,
-      "altitude": 31,
-      "kind": "water_medium"
-    },
-    {
-      "x": 16,
-      "y": 16,
-      "altitude": 27,
-      "kind": "water_deep"
-    },
-    {
-      "x": 16,
-      "y": 17,
-      "altitude": 33,
-      "kind": "water_medium"
-    },
-    {
-      "x": 16,
-      "y": 18,
-      "altitude": 34,
-      "kind": "water_medium"
-    },
-    {
-      "x": 16,
-      "y": 19,
-      "altitude": 36,
-      "kind": "water_medium"
-    },
-    {
-      "x": 16,
-      "y": 20,
-      "altitude": 50,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 16,
-      "y": 21,
-      "altitude": 48,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 16,
-      "y": 22,
-      "altitude": 27,
-      "kind": "water_deep"
-    },
-    {
-      "x": 16,
-      "y": 23,
-      "altitude": 25,
-      "kind": "water_deep"
-    },
-    {
-      "x": 16,
-      "y": 24,
-      "altitude": 24,
-      "kind": "water_deep"
-    },
-    {
-      "x": 16,
-      "y": 25,
-      "altitude": 44,
-      "kind": "water_medium"
-    },
-    {
-      "x": 16,
-      "y": 26,
-      "altitude": 22,
-      "kind": "water_deep"
-    },
-    {
-      "x": 16,
-      "y": 27,
-      "altitude": 29,
-      "kind": "water_deep"
-    },
-    {
-      "x": 16,
-      "y": 28,
-      "altitude": 23,
-      "kind": "water_deep"
-    },
-    {
-      "x": 16,
-      "y": 29,
-      "altitude": 40,
-      "kind": "water_medium"
-    },
-    {
-      "x": 17,
-      "y": 0,
-      "altitude": 23,
-      "kind": "water_deep"
-    },
-    {
-      "x": 17,
-      "y": 1,
-      "altitude": 26,
-      "kind": "water_deep"
-    },
-    {
-      "x": 17,
-      "y": 2,
-      "altitude": 44,
-      "kind": "water_medium"
-    },
-    {
-      "x": 17,
-      "y": 3,
-      "altitude": 48,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 17,
-      "y": 4,
-      "altitude": 24,
-      "kind": "water_deep"
-    },
-    {
-      "x": 17,
-      "y": 5,
-      "altitude": 49,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 17,
-      "y": 6,
-      "altitude": 52,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 17,
-      "y": 7,
-      "altitude": 54,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 17,
-      "y": 8,
-      "altitude": 56,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 17,
-      "y": 9,
-      "altitude": 57,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 17,
-      "y": 10,
-      "altitude": 25,
-      "kind": "water_deep"
-    },
-    {
-      "x": 17,
-      "y": 11,
-      "altitude": 26,
-      "kind": "water_deep"
-    },
-    {
-      "x": 17,
-      "y": 12,
-      "altitude": 33,
-      "kind": "water_medium"
-    },
-    {
-      "x": 17,
-      "y": 13,
-      "altitude": 34,
-      "kind": "water_medium"
-    },
-    {
-      "x": 17,
-      "y": 14,
-      "altitude": 33,
-      "kind": "water_medium"
-    },
-    {
-      "x": 17,
-      "y": 15,
-      "altitude": 48,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 17,
-      "y": 16,
-      "altitude": 26,
-      "kind": "water_deep"
-    },
-    {
-      "x": 17,
-      "y": 17,
-      "altitude": 50,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 17,
-      "y": 18,
-      "altitude": 52,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 17,
-      "y": 19,
-      "altitude": 52,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 17,
-      "y": 20,
-      "altitude": 51,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 17,
-      "y": 21,
-      "altitude": 50,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 17,
-      "y": 22,
-      "altitude": 48,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 17,
-      "y": 23,
-      "altitude": 40,
-      "kind": "water_medium"
-    },
-    {
-      "x": 17,
-      "y": 24,
-      "altitude": 45,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 17,
-      "y": 25,
-      "altitude": 23,
-      "kind": "water_deep"
-    },
-    {
-      "x": 17,
-      "y": 26,
-      "altitude": 30,
-      "kind": "water_medium"
-    },
-    {
-      "x": 17,
-      "y": 27,
-      "altitude": 25,
-      "kind": "water_deep"
-    },
-    {
-      "x": 17,
-      "y": 28,
-      "altitude": 22,
-      "kind": "water_deep"
-    },
-    {
-      "x": 17,
-      "y": 29,
-      "altitude": 22,
-      "kind": "water_deep"
-    },
-    {
-      "x": 18,
-      "y": 0,
-      "altitude": 20,
-      "kind": "water_deep"
-    },
-    {
-      "x": 18,
-      "y": 1,
-      "altitude": 24,
-      "kind": "water_deep"
-    },
-    {
-      "x": 18,
-      "y": 2,
-      "altitude": 45,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 18,
-      "y": 3,
-      "altitude": 23,
-      "kind": "water_deep"
-    },
-    {
-      "x": 18,
-      "y": 4,
-      "altitude": 49,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 18,
-      "y": 5,
-      "altitude": 50,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 18,
-      "y": 6,
-      "altitude": 26,
-      "kind": "water_deep"
-    },
-    {
-      "x": 18,
-      "y": 7,
-      "altitude": 53,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 18,
-      "y": 8,
-      "altitude": 55,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 18,
-      "y": 9,
-      "altitude": 24,
-      "kind": "water_deep"
-    },
-    {
-      "x": 18,
-      "y": 10,
-      "altitude": 25,
-      "kind": "water_deep"
-    },
-    {
-      "x": 18,
-      "y": 11,
-      "altitude": 58,
-      "kind": "land_highland"
-    },
-    {
-      "x": 18,
-      "y": 12,
-      "altitude": 34,
-      "kind": "water_medium"
-    },
-    {
-      "x": 18,
-      "y": 13,
-      "altitude": 50,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 18,
-      "y": 14,
-      "altitude": 51,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 18,
-      "y": 15,
-      "altitude": 49,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 18,
-      "y": 16,
-      "altitude": 52,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 18,
-      "y": 17,
-      "altitude": 52,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 18,
-      "y": 18,
-      "altitude": 52,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 18,
-      "y": 19,
-      "altitude": 51,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 18,
-      "y": 20,
-      "altitude": 51,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 18,
-      "y": 21,
-      "altitude": 50,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 18,
-      "y": 22,
-      "altitude": 49,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 18,
-      "y": 23,
-      "altitude": 41,
-      "kind": "water_medium"
-    },
-    {
-      "x": 18,
-      "y": 24,
-      "altitude": 39,
-      "kind": "water_medium"
-    },
-    {
-      "x": 18,
-      "y": 25,
-      "altitude": 50,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 18,
-      "y": 26,
-      "altitude": 35,
-      "kind": "water_medium"
-    },
-    {
-      "x": 18,
-      "y": 27,
-      "altitude": 27,
-      "kind": "water_deep"
-    },
-    {
-      "x": 18,
-      "y": 28,
-      "altitude": 28,
-      "kind": "water_deep"
-    },
-    {
-      "x": 18,
-      "y": 29,
-      "altitude": 22,
-      "kind": "water_deep"
-    },
-    {
-      "x": 19,
-      "y": 0,
-      "altitude": 28,
-      "kind": "water_deep"
-    },
-    {
-      "x": 19,
-      "y": 1,
-      "altitude": 26,
-      "kind": "water_deep"
-    },
-    {
-      "x": 19,
-      "y": 2,
-      "altitude": 46,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 19,
-      "y": 3,
-      "altitude": 48,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 19,
-      "y": 4,
-      "altitude": 47,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 19,
-      "y": 5,
-      "altitude": 52,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 19,
-      "y": 6,
-      "altitude": 52,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 19,
-      "y": 7,
-      "altitude": 24,
-      "kind": "water_deep"
-    },
-    {
-      "x": 19,
-      "y": 8,
-      "altitude": 21,
-      "kind": "water_deep"
-    },
-    {
-      "x": 19,
-      "y": 9,
-      "altitude": 21,
-      "kind": "water_deep"
-    },
-    {
-      "x": 19,
-      "y": 10,
-      "altitude": 23,
-      "kind": "water_deep"
-    },
-    {
-      "x": 19,
-      "y": 11,
-      "altitude": 51,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 19,
-      "y": 12,
-      "altitude": 49,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 19,
-      "y": 13,
-      "altitude": 46,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 19,
-      "y": 14,
-      "altitude": 49,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 19,
-      "y": 15,
-      "altitude": 49,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 19,
-      "y": 16,
-      "altitude": 53,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 19,
-      "y": 17,
-      "altitude": 39,
-      "kind": "water_medium"
-    },
-    {
-      "x": 19,
-      "y": 18,
-      "altitude": 54,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 19,
-      "y": 19,
-      "altitude": 54,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 19,
-      "y": 20,
-      "altitude": 55,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 19,
-      "y": 21,
-      "altitude": 53,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 19,
-      "y": 22,
-      "altitude": 49,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 19,
-      "y": 23,
-      "altitude": 46,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 19,
-      "y": 24,
-      "altitude": 42,
-      "kind": "water_medium"
-    },
-    {
-      "x": 19,
-      "y": 25,
-      "altitude": 43,
-      "kind": "water_medium"
-    },
-    {
-      "x": 19,
-      "y": 26,
-      "altitude": 57,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 19,
-      "y": 27,
-      "altitude": 62,
-      "kind": "land_mountain"
-    },
-    {
-      "x": 19,
-      "y": 28,
-      "altitude": 64,
-      "kind": "land_mountain"
-    },
-    {
-      "x": 19,
-      "y": 29,
-      "altitude": 62,
-      "kind": "land_mountain"
-    },
-    {
-      "x": 20,
-      "y": 0,
-      "altitude": 30,
-      "kind": "water_medium"
-    },
-    {
-      "x": 20,
-      "y": 1,
-      "altitude": 25,
-      "kind": "water_deep"
-    },
-    {
-      "x": 20,
-      "y": 2,
-      "altitude": 47,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 20,
-      "y": 3,
-      "altitude": 49,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 20,
-      "y": 4,
-      "altitude": 45,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 20,
-      "y": 5,
-      "altitude": 51,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 20,
-      "y": 6,
-      "altitude": 52,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 20,
-      "y": 7,
-      "altitude": 25,
-      "kind": "water_deep"
-    },
-    {
-      "x": 20,
-      "y": 8,
-      "altitude": 21,
-      "kind": "water_deep"
-    },
-    {
-      "x": 20,
-      "y": 9,
-      "altitude": 20,
-      "kind": "water_deep"
-    },
-    {
-      "x": 20,
-      "y": 10,
-      "altitude": 22,
-      "kind": "water_deep"
-    },
-    {
-      "x": 20,
-      "y": 11,
-      "altitude": 30,
-      "kind": "water_medium"
-    },
-    {
-      "x": 20,
-      "y": 12,
-      "altitude": 45,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 20,
-      "y": 13,
-      "altitude": 46,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 20,
-      "y": 14,
-      "altitude": 50,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 20,
-      "y": 15,
-      "altitude": 51,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 20,
-      "y": 16,
-      "altitude": 52,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 20,
-      "y": 17,
-      "altitude": 40,
-      "kind": "water_medium"
-    },
-    {
-      "x": 20,
-      "y": 18,
-      "altitude": 57,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 20,
-      "y": 19,
-      "altitude": 61,
-      "kind": "land_highland"
-    },
-    {
-      "x": 20,
-      "y": 20,
-      "altitude": 60,
-      "kind": "land_highland"
-    },
-    {
-      "x": 20,
-      "y": 21,
-      "altitude": 22,
-      "kind": "water_deep"
-    },
-    {
-      "x": 20,
-      "y": 22,
-      "altitude": 52,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 20,
-      "y": 23,
-      "altitude": 47,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 20,
-      "y": 24,
-      "altitude": 31,
-      "kind": "water_medium"
-    },
-    {
-      "x": 20,
-      "y": 25,
-      "altitude": 30,
-      "kind": "water_medium"
-    },
-    {
-      "x": 20,
-      "y": 26,
-      "altitude": 56,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 20,
-      "y": 27,
-      "altitude": 59,
-      "kind": "land_highland"
-    },
-    {
-      "x": 20,
-      "y": 28,
-      "altitude": 61,
-      "kind": "land_highland"
-    },
-    {
-      "x": 20,
-      "y": 29,
-      "altitude": 62,
-      "kind": "land_mountain"
-    },
-    {
       "x": 21,
-      "y": 0,
-      "altitude": 31,
-      "kind": "water_medium"
-    },
-    {
-      "x": 21,
-      "y": 1,
-      "altitude": 51,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 21,
-      "y": 2,
-      "altitude": 50,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 21,
-      "y": 3,
+      "y": 25,
       "altitude": 61,
       "kind": "land_highland"
     },
     {
       "x": 21,
-      "y": 4,
-      "altitude": 59,
-      "kind": "land_highland"
-    },
-    {
-      "x": 21,
-      "y": 5,
-      "altitude": 44,
-      "kind": "water_medium"
-    },
-    {
-      "x": 21,
-      "y": 6,
-      "altitude": 35,
-      "kind": "water_medium"
-    },
-    {
-      "x": 21,
-      "y": 7,
-      "altitude": 26,
-      "kind": "water_deep"
-    },
-    {
-      "x": 21,
-      "y": 8,
+      "y": 26,
       "altitude": 57,
       "kind": "land_grassland"
     },
     {
       "x": 21,
-      "y": 9,
-      "altitude": 54,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 21,
-      "y": 10,
-      "altitude": 29,
-      "kind": "water_deep"
-    },
-    {
-      "x": 21,
-      "y": 11,
-      "altitude": 31,
-      "kind": "water_medium"
-    },
-    {
-      "x": 21,
-      "y": 12,
-      "altitude": 44,
-      "kind": "water_medium"
-    },
-    {
-      "x": 21,
-      "y": 13,
-      "altitude": 48,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 21,
-      "y": 14,
-      "altitude": 52,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 21,
-      "y": 15,
-      "altitude": 42,
-      "kind": "water_medium"
-    },
-    {
-      "x": 21,
-      "y": 16,
-      "altitude": 46,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 21,
-      "y": 17,
-      "altitude": 51,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 21,
-      "y": 18,
-      "altitude": 26,
-      "kind": "water_deep"
-    },
-    {
-      "x": 21,
-      "y": 19,
-      "altitude": 60,
-      "kind": "land_highland"
-    },
-    {
-      "x": 21,
-      "y": 20,
-      "altitude": 59,
-      "kind": "land_highland"
-    },
-    {
-      "x": 21,
-      "y": 21,
-      "altitude": 31,
-      "kind": "water_medium"
-    },
-    {
-      "x": 21,
-      "y": 22,
-      "altitude": 55,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 21,
-      "y": 23,
-      "altitude": 48,
-      "kind": "water_shallow"
-    },
-    {
-      "x": 21,
-      "y": 24,
-      "altitude": 29,
-      "kind": "water_deep"
-    },
-    {
-      "x": 21,
-      "y": 25,
-      "altitude": 53,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 21,
-      "y": 26,
-      "altitude": 54,
-      "kind": "land_grassland"
-    },
-    {
-      "x": 21,
       "y": 27,
-      "altitude": 49,
-      "kind": "water_shallow"
+      "altitude": 56,
+      "kind": "land_grassland"
     },
     {
       "x": 21,
       "y": 28,
-      "altitude": 37,
-      "kind": "water_medium"
+      "altitude": 50,
+      "kind": "water_shallow"
     },
     {
       "x": 21,
       "y": 29,
-      "altitude": 36,
+      "altitude": 48,
       "kind": "water_medium"
     }
   ]

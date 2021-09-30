@@ -5,14 +5,14 @@ require_relative 'classes/world'
 require_relative 'classes/launcher'
 
 # WORLD DEBUG
-sea_level = 48
-json = JSON.load_file("./maps/test.json")
-world = World.new(json["sea_level"], json)
-world.draw_tiles()
+# sea_level = 48
+# json = JSON.load_file("./maps/test.json")
+# world = World.new(json["sea_level"], json)
+# world.draw_tiles()
 
-# # LAUNCHER DEBUG
-# launcher = Launcher.new
-# launcher.main_loop
+# LAUNCHER DEBUG
+launcher = Launcher.new
+launcher.main_loop
 
 # # return a list of file names of a type without the file extension
 # def get_all_file_names_of_type(path, extension)

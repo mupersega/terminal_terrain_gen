@@ -17,6 +17,7 @@ class World
     @cols = 30
     @min_altitude = 0
     @max_altitude = 100
+    @name = nil
     @sea_level = sea_level
     @world_data = world_data
     @height_map = height_map
@@ -29,12 +30,13 @@ class World
 
   # build a world from fresh if no data loaded
   def build_fresh
-    @height_map = setup_height_map
+    setup_height_map
     instantiate_tiles_from_array(@height_map)
   end
 
   # build a world from json
   def build_from_data
+    @name = @world_data["name"]
     @sea_level = @world_data["sea_level"]
     @height_map = @world_data["height_map"]
     @rows = @height_map.length
@@ -89,6 +91,8 @@ class World
 
   # call draw method of all tiles and space with line breaks
   def draw_tiles
+    pretty_pretty_print('World Name: ')
+    print (@name.nil? ? Rainbow('map not yet saved...').color(:crimson) : Rainbow(@name).color(:gold)).to_s
     @tiles.each_with_index do |tile, i|
       if (i % @cols).zero?
         puts ''
@@ -98,12 +102,12 @@ class World
       # sleep(0.005)
     end
     puts ''
-    puts ''
+
   end
 
   def map_menu
-    menu_items = ["smooth the map", "add heights", "add depths", "save this map", "quit"]
-    input = @prompt.select("You would like to..") do |menu|
+    menu_items = ["Smooth", "Raise", "Dig", "Save", "Return"]
+    input = @prompt.select(pretty_pretty_print("What would you like to do?")) do |menu|
       menu.choice menu_items[0]
       menu.choice menu_items[1]
       menu.choice menu_items[2]
@@ -114,56 +118,55 @@ class World
     when menu_items[0]
       user_smooth
     when menu_items[1]
-      add_mountains
+      add_height
     when menu_items[2]
-      subtract_heights
+      subtract_height
     when menu_items[3]
       save_world
     else
-      thank_user
-      exit!
+      return true
     end
   end
 
-  def add_mountains
+  def add_height
     num_nodes = @prompt.slider("How many times?", min: 0, max: 10, step: 1)
-    size = @prompt.slider("How big would you like them to be?", min: 1, max: 3, step: 1, help: "(1=sml, 2=med, 3=lrg)", show_help: :always)
+    size = @prompt.slider("How much?\n|1) a bit |2) some |3) lots|", min: 1, max: 3, step: 1)
     num_nodes.times {Terraformer.new(self, rand(@cols), rand(@rows), size, 1)}
-
+    rebuild_tiles
   end
 
-  def subtract_heights
+  def subtract_height
     num_nodes = @prompt.slider("How many times?", min: 0, max: 10, step: 1)
-    size = @prompt.slider("How greedily, and how deep will you dig?", min: 1, max: 3, step: 1, help: "(1=shallow, 2=deep, 3=moria)", show_help: :always)
+    size = @prompt.slider("How greedily, and how deep?\n|1) shallow |2) deep |3) Moria|", min: 1, max: 3, step: 1)
     num_nodes.times {Terraformer.new(self, rand(@cols), rand(@rows), size, -1)}
+    rebuild_tiles
   end
 
   def user_smooth
     choices = {"a little" => 1, "a lot" => 2}
     smooth_radius = @prompt.select("Smooth how much?", choices)
     smooth_radius.times {smooth_height_map(smooth_radius)}
+    rebuild_tiles
   end
 
-  # get world name from user.
   def save_world
     # set loop flag
-    valid_name = false
-    # final name
-    chosen_name = nil
+    name_is_valid = false
     # return all maps in maps folder
     all_maps = get_all_file_names_of_type("json", "./maps/")
     # loop until valid name 
-    until valid_name
+    until name_is_valid
       map_name = get_validated_map_name
       # if name exists would user like to overwrite map
       if all_maps.include? map_name
-        valid_name = @prompt.yes?("This map already exists, would you like to overwrite it?")
+        @prompt.yes?('This map already exists, would you like to overwrite it?') ? name_is_valid = true : next
       else
-        valid_name = true
+        name_is_valid = true
       end
     end
-    puts "saving world"
-    export_world(chosen_name)
+    export_world(map_name)
+    @name = map_name
+    display_save_timer("map saved as #{map_name}.json", 2, 5)
   end
 
   def get_validated_map_name
@@ -173,7 +176,27 @@ class World
     return name
   end
 
-  def export_world(name, path="./maps/test.json")
+  def display_save_timer(msg, total_time, time_steps)
+    step = total_time.to_f / time_steps
+    time_steps.times do |i|
+      system 'clear'
+      print "saving #{'>' * i}"
+      sleep(step)
+    end
+    puts "*"
+    puts msg
+    if @prompt.yes?('continue?')
+      rebuild_tiles
+      return
+    else
+      puts "Thank you, exiting now."
+      sleep(0.2)
+      exit!
+    end
+  end
+
+  def export_world(name, path="./maps")
+    path = "#{path}/#{name}.json"
     new_json = {
       name: name,
       sea_level: @sea_level,
@@ -183,12 +206,22 @@ class World
     File.open(path, 'w') { |file| file.write(JSON.pretty_generate(new_json))}
   end
 
+  def rebuild_tiles
+    system 'clear'
+    instantiate_tiles_from_array(@height_map)
+    draw_tiles
+  end
+
+  def pretty_pretty_print(string)
+    colours = [:lawngreen, :green, :darkgreen, :seagreen, :darkseagreen, :limegreen, :chartreuse]
+    string.each_char { |char| print Rainbow(char).color(colours.sample)}
+    return nil
+  end
+
   def main_loop
     done = false
     until done
-      map_menu
-      instantiate_tiles_from_array(@height_map)
-      draw_tiles
+      done = map_menu
     end
   end
 end
