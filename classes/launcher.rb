@@ -1,45 +1,37 @@
+# frozen_string_literal: true
+
 require 'tty-prompt'
 require_relative '../modules/data'
 require_relative '../modules/utilities'
 require_relative 'world'
 
+# Launcher class handles main menu and instantiating new Worlds.
 class Launcher
-  # Launcher class will prepare the user to create and load worlds and is where the user will return to after finishing world creation.
+  # Launcher class will prepare the user to create
+  # and load worlds and is where the user will return to after finishing world creation.
   include Data::Text
   include Utilities::FileFuncs
 
   def initialize
     @prompt = TTY::Prompt.new
-    @text = Data::Text.all_text
     @current_world = nil
   end
 
-  def welcome_user
-    first_time = @prompt.yes?(@text[:welcome_message])
-    if first_time
-      puts ''
-      system 'clear'
-    else
-      puts @text[:bundle_install_text]
-      exit!
-    end
-    title_screen
-  end
-
   def title_screen
+    system 'clear'
     pretty_pretty_print(Data::Text.title_ascii)
     pretty_pretty_print(Data::Text.home_text)
   end
 
-  def thank_user
-    puts "thanks for doing things, you're the best!"
-  end
-
   def main_menu
     pretty_pretty_print(Data::Text.main_menu_ascii)
-    puts ""
-    menu_items = ["New world", "Load world", "Exit"]
-    input = @prompt.select("Here are your options:") do |menu|
+    puts ''
+    menu_items = [
+      Rainbow('               --New World--').color(:gold),
+      Rainbow('              --Load World--').color(:gold),
+      Rainbow('                 --Exit--').color(:gold)
+    ]
+    input = @prompt.select('') do |menu|
       menu.choice menu_items[0]
       menu.choice menu_items[1]
       menu.choice menu_items[2]
@@ -52,38 +44,50 @@ class Launcher
     else
       return true
     end
-    return false
+    false
   end
 
-  # print real purdy-like
+  # print all purdy-like
   def pretty_pretty_print(string)
-    colours = [:lawngreen, :green, :darkgreen, :seagreen, :darkseagreen, :limegreen, :chartreuse]
-    string.each_char { |char| print Rainbow(char).color(colours.sample)}
+    colours = %i[
+      lawngreen
+      green
+      darkgreen
+      seagreen
+      darkseagreen
+      limegreen
+      chartreuse
+    ]
+    string.each_char { |char| print Rainbow(char).color(colours.sample) }
+    nil
   end
 
+  # instantiate new World class
   def new_world
     # choose sea level
-    sl = @prompt.slider("Sea Level", min: -5, max: 5, step: 1, help: "(low = more land, high = more water)", show_help: :always)
+    sl = @prompt.slider('          Sea Level:', min: -5, max: 5, step: 1)
     @current_world = World.new(50 + sl)
   end
 
+  # instantiate new World class FROM JSON data
   def load_world
     # create choice list of all json filenames in maps folder
-    begin
-      choices = get_all_file_names_of_type("json", "./maps")
-      # prompt select from list
-      choice = @prompt.select("Choose a map", choices, cycle: true, max: 3)
-      # load json file matching name
-      json = JSON.load_file("./maps/#{choice}.json")
-      # instantiate world with sea level and other data
-      @current_world = World.new(json["sea_level"], json)
-    rescue NoMethodError
-      puts "There are currently no maps to load, create a new one and save to utilize this feature."
-    end
+    choices = get_all_file_names_of_type('json', './maps')
+    # prompt select from list
+    choice = @prompt.select('Choose a map', choices, cycle: true, max: 3)
+    # load json file matching name
+    json = JSON.load_file("./maps/#{choice}.json")
+    # instantiate world with sea level and other data
+    @current_world = World.new(json['sea_level'], json)
+  # ERROR-HANDLING being used here to catch when no files available to load.
+  rescue NoMethodError
+    puts Rainbow('You have NO maps to load, to utilize this feature...').color(:crimson)
+    puts Rainbow("create a 'New world' and 'Save'.\nreturning...").color(:crimson)
+    @prompt.yes?('continue?')
   end
 
   def main_loop
-    welcome_user
+    title_screen
     done = false
     until done
       done = main_menu

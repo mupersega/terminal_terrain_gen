@@ -1,46 +1,32 @@
-require 'tty-prompt'
-require 'json'
-require_relative 'modules/utilities'
-require_relative 'classes/world'
+# frozen_string_literal: true
+
+# ERROR-HANDLING
+begin
+  # I am INTENTIONALLY REQUIRING all dependencies to catch load errors early
+  require 'fileutils'
+  require 'rainbow'
+  require 'tty-prompt'
+  require 'json'
+rescue LoadError
+  puts 'There has been an error loading the necessary dependencies.'
+  puts "Please:
+    1. navigate to the root directory of this application,
+    2. run './terra',
+    3. press [i] to install all required dependencies."
+  exit!
+end
+
 require_relative 'classes/launcher'
+require_relative 'modules/data'
+include Data::RuntimeFunx
 
-# WORLD DEBUG
-# sea_level = 48
-# json = JSON.load_file("./maps/test.json")
-# world = World.new(json["sea_level"], json)
-# world.draw_tiles()
-
-# LAUNCHER DEBUG
-launcher = Launcher.new
-launcher.main_loop
-
-# # return a list of file names of a type without the file extension
-# def get_all_file_names_of_type(path, extension)
-#   # get all files in path
-#   full_file_names = Dir.entries(path).select { |f| File.file? File.join(path, f) }
-#   p full_file_names
-#   files = []
-#   full_file_names.each do |name|
-#     # split file into name and extension
-#     file_breakdown = name.split(".")
-#     p file_breakdown
-#     file_breakdown[1] == extension ? files.push(file_breakdown[0]) : next
-#   end
-#   return files
-# end
-
-# # def load_world
-# #   # create list all json filenames in maps folder
-# #   files = Dir.entries("./maps").select { |f| File.file? File.join("./maps", f) }
-# #   p files
-# #   # prompt select from list
-# #   # parse data of chosen json
-# #   # TEST VALIDITY OF HEIGHT MAP
-# #   # @current_world = World.new(data.sl, data.heightmap)
-# # end
-
-# # get_all_json("./maps")
-
-# p get_all_file_names_of_type("./maps", "json")
-
-# # p Dir.entries("./maps")
+# ERROR-HANDLING used here to inform when no cli arg has been passed
+begin
+  options = %w[run clear]
+  # VV process cli arg here VV
+  choice = ARGV[0].downcase
+  p choice
+  options.include?(choice) ? run_task(choice) : wrong_input
+rescue NoMethodError
+  wrong_input
+end

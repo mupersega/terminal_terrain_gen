@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # These Utilities must have no reference to other projects.
 module Utilities
   # --MATH FUNCTIONS-- #
@@ -17,9 +19,7 @@ module Utilities
 
   # --STRING FUNCTIONS-- #
   module StringFuncs
-    def keep_alphabet
-    end
-
+    # return a string at a set size to ensure clean printing
     def pad_string(string, desired_string_length, filler = '0')
       # assigning vars only for cleaner code
       s = string.to_s
@@ -42,7 +42,6 @@ module Utilities
   module ArrayFuncs
     include MathFuncs
     include StringFuncs
-
     # create a random array of given dimensions.
     def random_2d_array(total_rows, num_columns, min_value, max_value)
       r = total_rows
@@ -54,7 +53,9 @@ module Utilities
       new_array
     end
 
-    # smooth an array with average pooling. This is also known as convolution. smooth_radius is how many cells around the main cell should be used to contribute to the pool.
+    # smooth an array with average pooling, also known as convolution
+    # smooth_radius is how many cells around the main cell should be used to contribute to the pool.
+    # PLEASE NOTE!!! THIS FUNC IS DELIBERATELY VERBOSE, RUBOCOP SHHHH!!
     def smooth_2d_array(arr, smooth_radius)
       # prepare new array
       new_array = []
@@ -106,11 +107,10 @@ module Utilities
       num_arrays = nested_array.length
       num_cols.times do |i|
         current_sum = 0
-        working_array = nested_array[i]
-        nested_array.each { |array| current_sum += array[i]}
+        nested_array.each { |array| current_sum += array[i] }
         joined_arr << current_sum / num_arrays.to_f
       end
-      return joined_arr
+      joined_arr
     end
 
     # display values in array with no padding or delimiter one row at a time
@@ -133,23 +133,20 @@ module Utilities
       end
     end
   end
-  
+
   # --File Functions-- #
   module FileFuncs
     # return a list of file names of a type without the file extension
     def get_all_file_names_of_type(extension, path)
-      # p Dir.entries(path)
       # get all files in path
       full_file_names = Dir.entries(path).select { |f| File.file? File.join(path, f) }
-      p full_file_names
       files = []
       full_file_names.each do |name|
         # split file into name and extension
-        file_breakdown = name.split(".")
+        file_breakdown = name.split('.')
         file_breakdown[1] == extension ? files << file_breakdown[0] : next
       end
-      return files
+      files
     end
-
   end
 end

@@ -1,19 +1,22 @@
+# frozen_string_literal: true
+
 require 'rainbow'
 
 require_relative '../modules/utilities'
 require_relative '../modules/data'
 
+# Tile represents a single index in the height map with all it's resultant attribs
 class Tile
   include Utilities::StringFuncs
   include Utilities::MathFuncs
   include Data::TileData
 
-  def initialize(world, x, y, altitude, kind=nil)
+  def initialize(world, x_pos, y_pos, altitude, kind = nil)
     @world = world
-    @x = x
-    @y = y
+    @x = x_pos
+    @y = y_pos
     @altitude = altitude
-    @kind = kind == nil ? establish_kind : kind.to_sym
+    @kind = kind.nil? ? establish_kind : kind.to_sym
 
     @tile_data = Data::TileData.tile_info[@kind]
     @colour_bg = @tile_data[:colour]
@@ -23,8 +26,9 @@ class Tile
     @current_frame = rand(@frames.length)
   end
 
+  # this class's JSON representation
   def as_json
-    return {
+    {
       x: @x,
       y: @y,
       altitude: @altitude,
@@ -32,6 +36,7 @@ class Tile
     }
   end
 
+  # ascertain and assign terrain kind
   def establish_kind
     underwater = @altitude <= @world.sea_level
     sea_level = @world.sea_level
@@ -76,5 +81,5 @@ class Tile
 
   def to_s
     "<#{pad_string(@x, 2)},#{pad_string(@y, 2)},#{pad_string(@altitude, 2)}> "
-    end
+  end
 end

@@ -1,0 +1,40 @@
+#!/bin/bash
+
+# display options to user
+printf "what would you like to do?\n"
+printf "  [i]nstall dependencies (DO THIS BEFORE TRYING TO RUN)\n";
+printf "  [r]un\n";
+printf "  [c]lear maps\n" ;
+printf "Type c, r, or i and press enter\n";
+# assign choice to variable
+read;
+CHOICE=${REPLY};
+
+# run if 'r', clear if 'c', install dependencies if 'i', otherwise exit
+if [ "r" = $CHOICE ]
+then
+  # passing cli arg here 'run'
+  ruby main.rb run
+elif [ "c" = $CHOICE ]
+then
+  read -p 'Are you sure you want to delete all saved maps? y/n: ';
+  WILLCLEAR=${REPLY};
+  if [ $WILLCLEAR = "y" ]
+  then
+    # passing cli arg here 'clear'
+    ruby main.rb clear
+    echo "### ALL MAPS CLEARED ###"
+  else
+    echo "Files will not be deleted, exiting."
+  fi
+elif [ "i" = $CHOICE ]
+then
+  echo "### INSTALLING BUNDLER ###"
+  gem install bundler
+  echo "### INSTALLING DEPENDENCIES###"
+  bundle install
+  echo "### DEPENDENCIES INSTALLED ###"
+  echo "run './terra' again to continue"
+else
+  echo "Please choose a valid option next time."
+fi
