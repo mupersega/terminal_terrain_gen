@@ -16,20 +16,24 @@ class RandArrayTests < Test::Unit::TestCase
     @smoothed_array = smooth_2d_array(@testable_array, 1)
   end
 
+  # number of array should match number of rows
   def test_number_of_nested_arrays
     assert_equal(@rows, @testable_array.length, 'Incorrect number of rows created')
   end
 
+  # number of values per array should equal columns
   def test_size_of_nested_array
     assert_equal(@columns, @testable_array[0].length, 'Incorrect number of values in each row')
   end
 
+  # check all values in array are below or equal to max value
   def test_all_values_below_max
     assert_block do
       @testable_array.flatten.max <= @max_value
     end
   end
 
+  # check all values in array are above or equal to min value
   def test_all_values_above_min
     assert_block do
       @testable_array.flatten.max >= @min_value
