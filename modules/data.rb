@@ -127,6 +127,8 @@ module Data
       when 'clear'
         dir_path = './maps'
         FileUtils.rm_rf(Dir["#{dir_path}/*"], secure: true)
+        # put a file in here so the repo always has something
+        File.new("#{dir_path}/.gitkeep", 'w')
         puts 'clearing maps folder'
       end
     end
