@@ -6,7 +6,7 @@ module Utilities
   module MathFuncs
     # return average of nums in array
     def average(arr)
-      arr.sum / arr.size
+      arr.sum.to_f / arr.size
     end
 
     # return the percentile of a number within a range
