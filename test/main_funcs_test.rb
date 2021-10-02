@@ -3,6 +3,7 @@
 require 'test/unit'
 require_relative '../modules/utilities'
 
+# tests for the main array functions
 class RandArrayTests < Test::Unit::TestCase
   include Utilities::ArrayFuncs
   include Utilities::MathFuncs

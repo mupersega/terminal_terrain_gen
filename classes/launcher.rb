@@ -21,8 +21,12 @@ class Launcher
     system 'clear'
     pretty_pretty_print(Data::Text.title_ascii)
     pretty_pretty_print(Data::Text.home_text)
+    puts Rainbow("
+      please view in a full screen window
+           with font size 24 - 34").color(:darkslategray)
   end
 
+  # main menu with padding to appear centre
   def main_menu
     pretty_pretty_print(Data::Text.main_menu_ascii)
     puts ''
@@ -31,7 +35,7 @@ class Launcher
       Rainbow('              --Load World--').color(:gold),
       Rainbow('                 --Exit--').color(:gold)
     ]
-    input = @prompt.select('') do |menu|
+    input = @prompt.select('', symbols: { marker: Rainbow('>').color(:chartreuse) }) do |menu|
       menu.choice menu_items[0]
       menu.choice menu_items[1]
       menu.choice menu_items[2]
@@ -66,6 +70,7 @@ class Launcher
   def new_world
     # choose sea level
     sl = @prompt.slider('          Sea Level:', min: -5, max: 5, step: 1)
+    system 'clear'
     @current_world = World.new(50 + sl)
   end
 
@@ -77,13 +82,14 @@ class Launcher
     choice = @prompt.select('Choose a map', choices, cycle: true, max: 3)
     # load json file matching name
     json = JSON.load_file("./maps/#{choice}.json")
+    system 'clear'
     # instantiate world with sea level and other data
     @current_world = World.new(json['sea_level'], json)
   # ERROR-HANDLING being used here to catch when no files available to load.
   rescue NoMethodError
     puts Rainbow('You have NO maps to load, to utilize this feature...').color(:crimson)
-    puts Rainbow("create a 'New world' and 'Save'.\nreturning...").color(:crimson)
-    @prompt.yes?('continue?')
+    puts Rainbow("create a 'New world' and 'Save'.").color(:crimson)
+    @prompt.keypress('press any key to continue...')
   end
 
   def main_loop

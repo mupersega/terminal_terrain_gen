@@ -1,7 +1,9 @@
 # frozen_string_literal: true
 
 require 'rainbow'
+require 'pastel'
 require 'json'
+require 'tty-progressbar'
 
 require_relative '../modules/utilities'
 require_relative 'tile'
@@ -16,7 +18,15 @@ class World
   attr_reader :sea_level, :height_map, :cols, :rows
 
   def initialize(sea_level, world_data = nil)
+    @pastel = Pastel.new
+    @bar_block_complete = @pastel.yellow.on_green('░')
+    @bar_block_incomplete = @pastel.yellow('>')
     @prompt = TTY::Prompt.new
+    @save_bar = TTY::ProgressBar.new("Saving |:bar|",
+      total: 15,
+      complete: @bar_block_complete,
+      incomplete: @bar_block_incomplete
+    )
     @rows = 22
     @cols = 30
     @min_altitude = 0
@@ -164,6 +174,7 @@ class World
     rebuild_tiles
   end
 
+  # save a world to maps/valid_name.json
   def save_world
     # set loop flag
     name_is_valid = false
@@ -181,12 +192,12 @@ class World
     end
     export_world(map_name)
     @name = map_name
-    display_save_timer("map saved as #{map_name}.json", 2, 5)
+    display_save_timer("Map saved as: #{Rainbow(map_name + ".json").color(:gold)}", 2, 15)
   end
 
   def return_valid_name
+    puts Rainbow('Name must be between 1-12 characters and contain letters only.*').color(:darkslategray)
     pretty_pretty_print("What would you like to name this map?\n")
-    puts Rainbow('Name must be between 1-12 characters and contain letters only.*').color(:crimson)
     @prompt.ask('World Name: ') do |q|
       q.validate(/^[a-zA-Z]{1,12}$/, "File name must contain #{
         Rainbow('LETTERS').red} only, and be between #{Rainbow('1 - 12').red} characters long")
@@ -195,12 +206,10 @@ class World
 
   def display_save_timer(msg, total_time, time_steps)
     step = total_time.to_f / time_steps
-    time_steps.times do |i|
-      system 'clear'
-      print "saving #{'>' * i}"
+    time_steps.times do
       sleep(step)
+      @save_bar.advance
     end
-    puts '*'
     puts msg
     if @prompt.yes?('continue?')
       rebuild_tiles

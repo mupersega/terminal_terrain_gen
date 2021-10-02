@@ -5,7 +5,9 @@ begin
   # I am INTENTIONALLY REQUIRING all dependencies to catch load errors early
   require 'fileutils'
   require 'rainbow'
+  require 'pastel'
   require 'tty-prompt'
+  require 'tty-progressbar'
   require 'json'
 rescue LoadError
   puts 'There has been an error loading the necessary dependencies.'
@@ -25,7 +27,6 @@ begin
   options = %w[run clear]
   # VV process cli arg here VV
   choice = ARGV[0].downcase
-  p choice
   options.include?(choice) ? run_task(choice) : wrong_input
 rescue NoMethodError
   wrong_input

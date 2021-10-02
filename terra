@@ -19,7 +19,7 @@ elif [ "c" = $CHOICE ]
 then
   read -p 'Are you sure you want to delete all saved maps? y/n: ';
   WILLCLEAR=${REPLY};
-  if [ $WILLCLEAR = "y" ]
+  if [ "y" = $WILLCLEAR ]
   then
     # passing cli arg here 'clear'
     ruby main.rb clear
