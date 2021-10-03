@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require 'rainbow'
-require 'pastel'
+require 'chunky_png'
 require 'json'
 require 'tty-progressbar'
 
@@ -18,15 +18,7 @@ class World
   attr_reader :sea_level, :height_map, :cols, :rows
 
   def initialize(sea_level, world_data = nil)
-    @pastel = Pastel.new
-    @bar_block_complete = @pastel.yellow.on_green('░')
-    @bar_block_incomplete = @pastel.yellow('>')
     @prompt = TTY::Prompt.new
-    @save_bar = TTY::ProgressBar.new("Saving |:bar|",
-      total: 15,
-      complete: @bar_block_complete,
-      incomplete: @bar_block_incomplete
-    )
     @rows = 22
     @cols = 30
     @min_altitude = 0
@@ -74,12 +66,24 @@ class World
   def instantiate_tiles_from_array(an_array)
     # empty current tiles
     @tiles.clear
+    # set up build progress bar with counters
+    total_tiles = @rows * @cols
+    build_progress = TTY::ProgressBar.new("Building tiles |:bar|",
+      total: 50,
+      complete: Rainbow('░').color(:gold).bg(:green),
+      incomplete: Rainbow('>').color(:darkslategray)
+    )
+    total_tiles = @rows * @cols
+    tile_count = 0.0
     # for every value(altitude) in every row, make a new tile at coords (x=row_index, y=col_index) at altitude.
     an_array.each_with_index do |row, row_index|
       row.each_with_index do |altitude, col_index|
         @tiles.push Tile.new(self, row_index, col_index, altitude)
+        tile_count += 1
+        build_progress.ratio = tile_count / total_tiles
       end
     end
+    system 'clear'
   end
 
   def instantiate_tiles_from_json(tile_data)
@@ -142,10 +146,13 @@ class World
     case input
     when menu_items[0]
       user_smooth
+      false
     when menu_items[1]
       add_height
+      false
     when menu_items[2]
       subtract_height
+      false
     when menu_items[3]
       save_world
     else
@@ -190,9 +197,9 @@ class World
         name_is_valid = true
       end
     end
-    export_world(map_name)
-    @name = map_name
-    display_save_timer("Map saved as: #{Rainbow(map_name + ".json").color(:gold)}", 2, 15)
+    @name = map_name.to_s
+    export_world_img(map_name)
+    export_world_json(map_name)
   end
 
   def return_valid_name
@@ -205,10 +212,15 @@ class World
   end
 
   def display_save_timer(msg, total_time, time_steps)
+    save_bar = TTY::ProgressBar.new("Saving |:bar|",
+      total: time_steps,
+      complete: Rainbow('░').color(:gold).bg(:green),
+      incomplete: Rainbow('>').color(:darkslategray)
+    )
     step = total_time.to_f / time_steps
     time_steps.times do
       sleep(step)
-      @save_bar.advance
+      save_bar.advance
     end
     puts msg
     if @prompt.yes?('continue?')
@@ -220,7 +232,7 @@ class World
     end
   end
 
-  def export_world(name, path = './maps')
+  def export_world_json(name, path = './maps')
     path = "#{path}/#{name}.json"
     new_json = {
       name: name,
@@ -228,7 +240,65 @@ class World
       height_map: @height_map,
       tiles: @tiles.map(&:as_json)
     }
-    File.open(path, 'w') { |file| file.write(JSON.pretty_generate(new_json)) }
+    begin
+      File.open(path, 'w') { |file| file.write(JSON.pretty_generate(new_json)) }
+      display_save_timer("Map data #{Rainbow(name + ".json").color(:gold)} saved", 2, 15)
+    rescue
+      puts 'unfortunately there was a problem saving map data, check that there are no map data files currently open.'
+    end
+  end
+
+  def export_world_img(name, path = './maps')
+    img_from_array_of_colours(tiles_as_colour_array, 10, path, name)
+  end
+
+  def tiles_as_colour_array
+    colour_array = []
+    current_row = []
+    # for each tile
+    @tiles.each do |tile|
+      # add tiles colour to array
+      current_row << tile.colour_export
+      # if end of row, push and begin new row
+      (next unless (current_row.size % @cols).zero? && !current_row.empty?)
+      colour_array.push(current_row.clone)
+      current_row.clear
+    end
+    colour_array
+  end
+
+  def img_from_array_of_colours(colour_array, cell_width, save_path, name)
+    mod = cell_width
+    height = colour_array.size
+    width = colour_array[0].size
+    # create base image with of black at final dimensions
+    img = ChunkyPNG::Image.new(width * cell_width, height * cell_width, ChunkyPNG::Color.rgb(0, 0, 0))
+    # for every row of colours
+    colour_array.each_with_index do |row_of_colours, y|
+      # for every colour in row
+      row_of_colours.each_with_index do |colour_value, x|
+        # change rows of pixels to colour value
+        # for every row
+        mod.times do |pixel_y|
+          # for every column
+          mod.times do |pixel_x|
+            # pixel_colour = ChunkyPNG::Color.rgb(
+            #   colour_value[0], colour_value[1], colour_value[2]
+            # )
+            pixel_colour = ChunkyPNG::Color(colour_value)
+            img[x * mod + pixel_x, y * mod + pixel_y] = pixel_colour
+          end
+        end
+      end
+    end
+
+    begin
+      img.save("#{save_path}/#{name}.png", :interlace => true)
+      puts "Map thumbnail image #{Rainbow(name + ".png").color(:gold)} saved"
+    rescue Errno::EINVAL
+      puts Rainbow("The image has not been saved, please check that an image file of  name '#{name}.jpg is not currently open. Close file and try saving again if you want a png representation of the current map.").color(:crimson)
+      @prompt.keypress('press any key to continue...')
+    end
   end
 
   def rebuild_tiles

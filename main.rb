@@ -5,7 +5,7 @@ begin
   # I am INTENTIONALLY REQUIRING all dependencies to catch load errors early
   require 'fileutils'
   require 'rainbow'
-  require 'pastel'
+  require 'chunky_png'
   require 'tty-prompt'
   require 'tty-progressbar'
   require 'json'

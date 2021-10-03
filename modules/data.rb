@@ -12,7 +12,8 @@ module Data
             "~ ~"
           ],
           colour: 'blue',
-          char_col: 'mediumblue'
+          char_col: 'mediumblue',
+          exp_col: 'blue'
         },
         water_medium: {
           frames: [
@@ -21,7 +22,8 @@ module Data
             "_ -"
           ],
           colour: 'mediumblue',
-          char_col: 'blue'
+          char_col: 'blue',
+          exp_col: 'mediumblue'
         },
         water_deep: {
           frames: [
@@ -30,7 +32,8 @@ module Data
             "_ -"
           ],
           colour: 'midnightblue',
-          char_col: 'blue'
+          char_col: 'blue',
+          exp_col: 'midnightblue'
         },
         land_peak: {
           frames: [
@@ -39,7 +42,8 @@ module Data
             "/^\\"
           ],
           colour: 'webgray',
-          char_col: 'darkslategray'
+          char_col: 'darkslategray',
+          exp_col: 'slategray'
         },
         land_mountain: {
           frames: [
@@ -48,7 +52,8 @@ module Data
             "^ ^"
           ],
           colour: 'darkslategray',
-          char_col: 'gray'
+          char_col: 'gray',
+          exp_col: 'darkslategray'
         },
         land_highland: {
           frames: [
@@ -57,7 +62,8 @@ module Data
             " ' "
           ],
           colour: 'darkgreen',
-          char_col: 'green'
+          char_col: 'green',
+          exp_col: 'darkgreen'
         },
         land_grassland: {
           frames: [
@@ -66,7 +72,8 @@ module Data
             " ' "
           ],
           colour: 'green',
-          char_col: 'lawngreen'
+          char_col: 'lawngreen',
+          exp_col: 'green'
         },
         land_shore: {
           frames: [
@@ -75,7 +82,8 @@ module Data
             " ░░"
           ],
           colour: 'green',
-          char_col: 'lightgoldenrod'
+          char_col: 'lightgoldenrod',
+          exp_col: 'green'
         }
       }
     end
@@ -113,9 +121,7 @@ module Data
   module RuntimeFunx
     # basic puts func
     def wrong_input
-      puts "Running this application also requires a command line argument\n
-      I strongly recommend that you \n
-      to clear maps folder => ./terra clear"
+      puts "Running this application also requires a command line argument . I strongly recommend that you return to the root directory and run './terra' which makes use of command line arguments."
     end
 
     # run specified task

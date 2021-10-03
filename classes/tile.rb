@@ -11,6 +11,8 @@ class Tile
   include Utilities::MathFuncs
   include Data::TileData
 
+  attr_reader :colour_export
+
   def initialize(world, x_pos, y_pos, altitude, kind = nil)
     @world = world
     @x = x_pos
@@ -21,6 +23,7 @@ class Tile
     @tile_data = Data::TileData.tile_info[@kind]
     @colour_bg = @tile_data[:colour]
     @colour_char = @tile_data[:char_col]
+    @colour_export = @tile_data[:exp_col]
     @frames = @tile_data[:frames]
     # choose a random string char out of all options to avoid repetitive tile displays
     @current_frame = rand(@frames.length)

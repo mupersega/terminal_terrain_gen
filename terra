@@ -11,7 +11,7 @@ read;
 CHOICE=${REPLY};
 
 # run if 'r', clear if 'c', install dependencies if 'i', otherwise exit
-if [ "r" = $CHOICE ]
+if [ "r" = $CHOICE ];
 then
   # passing cli arg here 'run'
   ruby main.rb run
