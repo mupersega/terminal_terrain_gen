@@ -6,7 +6,7 @@ This application will :
 1. Generate random terrain and display it in the terminal.
 2. Allow user to shape the terrain by adding and removing earth, and smoothing out the terrain.
 3. Allow for saving of maps, making them available for re-use. Exporting to JSON allows tile attributes to be used by other applications.
-4. Generate PNG images of maps created for a quick overview of your favaourite maps.
+4. Generate PNG images of maps created for a quick overview of your favourite maps.
 
 ---
 ## System and Hardware requirements
