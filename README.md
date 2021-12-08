@@ -36,11 +36,9 @@ Gems:
 ---
 ## Installation
 
-Firstly one can get the code by either cloning this github repository or by heading to the code button, downloading the zip and extracting.
+The installation and running of this terrain generator is managed by the "./terra" file.
 
-Installation and running of 2-Dimensional Terrain Generator is managed by the ./terra file.
-
-To *Install* please navigate to the main directory and type './terra' and enter. Installation of dependencies will be taken care of when you select the install dependencies option; follow the prompts and press 'i'.
+To *Install* please navigate to the main directory and enter **'./terra'**. Installation of dependencies will be taken care of when you select the install dependencies option; follow the prompts and press 'i'.
 
 *Run* the application in the same way, type './terra' and press enter. Now instead of installing dependencies, follow the prompts and press 'r' to run the application.
 
@@ -58,4 +56,3 @@ for example.
 
     ruby main.rb clear (to clear maps)
 
-_I recommend that if possible 'stick to the script' and simply run './terra' from the main directory_
